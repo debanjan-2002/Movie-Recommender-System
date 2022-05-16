@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.poster-shadow {
+    box-shadow:
+    1.9px 2px 1.4px rgba(0, 0, 0, 0.102),
+    4.5px 4.6px 3.3px rgba(0, 0, 0, 0.124),
+    8.1px 8.3px 5.9px rgba(0, 0, 0, 0.133),
+    13.5px 13.8px 9.8px rgba(0, 0, 0, 0.138),
+    22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
+    38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
+    84px 86px 61px rgba(0, 0, 0, 0.18);
+}
+.display-none {
+    display: none;
+}
