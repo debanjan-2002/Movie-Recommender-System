@@ -8,7 +8,7 @@ const current_movie_overview = document.querySelector('.current-movie-overview')
 const current_movie_genres = document.querySelector('.current-movie-genres');
 const recommendations_container = document.querySelector('.recommendations');
 
-fetch("./dataset.json")
+fetch("./movies.json")
 .then((res) => res.json())
 .then((data) => {
     let movies = format_data(data);
