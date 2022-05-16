@@ -1,0 +1,642 @@
+[
+    {
+        "id" : 1,
+        "title" : "Dumb and Dumber",
+        "genres" : ["Comedy"],
+        "cast" : ["JimCarrey", "JeffDaniels", "LaurenHolly", "MikeStarr"],
+        "Directors" : ["PeterFarrelly", "BoobyFarrelly"],
+        "Overview" : "After a woman leaves a briefcase at the airport terminal, a dumb limo driver and his dumber friend set out on a hilarious cross-country road trip to Aspen to return it.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "year": 1994
+    },
+    {
+        "id" : 2,
+        "title" : "Office Space",
+        "genres" : ["Comedy"],
+        "cast" : ["RonLivingston", "JenniferAniston", "DavidHerman", "AjayNaidu"],
+        "Directors" : ["MikeJudge"],
+        "Overview" : "Three company workers who hate their jobs decide to rebel against their greedy boss.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_.jpg",
+        "year": 1999
+    },
+    {
+        "id" : 3,
+        "title" : "The Jerk",
+        "genres" : ["Comedy"],
+        "cast" : ["SteveMartin","BernadettePeters","CatlinAdams","MarbelKing"],
+        "Directors" : ["CarlReiner"],
+        "Overview" : "A simpleminded, sheltered country boy suddenly decides to leave his family home to experience life in the big city, where his naivete is both his best friend and his worst enemy.",
+        "image" : "https://c8.alamy.com/comp/CREPX0/the-jerk-poster-for-1979-universal-film-with-steve-martin-CREPX0.jpg",
+        "year": 1979
+    },
+    {
+        "id" : 4,
+        "title" : "Ferris Bueller's Day Off",
+        "genres" : ["Comedy"],
+        "cast" : ["MatthewBroderick","AlanRuck","MiaSara","JeffreyJones"],
+        "Directors" : ["JohnHudges"],
+        "Overview" : "A high school wise guy is determined to have a day off from school, despite what the Principal thinks of that.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "year": 1986
+    },
+    {
+        "id" : 5,
+        "title" : "Planes, Trains & Automobiles",
+        "genres" : ["Comedy","Drama"],
+        "cast" : ["SteveMartin","JohnCandy","LailaRobins","MichaelMcKean"],
+        "Directors" : ["JohnHudges"],
+        "Overview" : "A Chicago advertising man must struggle to travel home from New York for Thanksgiving, with a lovable oaf of a shower curtain ring salesman as his only companion.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BM2I1ZWNkYjEtYWY3ZS00MmMwLWI5OTEtNWNkZjNiYjIwNzY0XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_FMjpg_UX1000_.jpg",
+        "year" : 1987
+    },
+    {
+        "id" : 6,
+        "title" : "Young Frankenstein",
+        "genres" : ["Comedy"],
+        "cast" : ["GeneWilder","MadelineKahn","MartyFeldman","PeterBoyle"],
+        "Directors" : ["MelBrooks"],
+        "Overview" : "An American grandson of the infamous scientist, struggling to prove that his grandfather was not as insane as people believe, is invited to Transylvania, where he discovers the process that reanimates a dead body.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTEwNjg2MjM2ODFeQTJeQWpwZ15BbWU4MDQ1MDU5OTEx._V1_.jpg",
+        "year" : 1974
+    },
+    {
+        "id" : 7,
+        "title" : "Step Brothers",
+        "genres" : ["Comedy"],
+        "cast" : ["WillFerrell","RichardJenkins","MarySteenburgen"],
+        "Directors" : ["AdamMcKay"],
+        "Overview" : "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BODViZDg3ZjYtMzhiYS00YTVkLTk4MzktYWUxMTlkYjc1NjdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "year" : 2008
+    },
+    {
+        "id" : 8,
+        "title" : "Knocked Up",
+        "genres" : ["Comedy","Romance"],
+        "cast" : ["SethRogen","KatherineHeigi","PaulRudd","LeslieMann"],
+        "Directors" : ["JuddApatow"],
+        "Overview" : "For fun-loving party animal Ben Stone, the last thing he ever expected was for his one-night stand to show up on his doorstep eight weeks later to tell him she's pregnant with his child.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNzgzYjMzMWItNDFiYi00ZjhkLWIyMzYtZGRlY2FmNzkwNjRhL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 2007
+    },
+    {
+        "id" : 9,
+        "title" : "The 40-Year-Old Virgin",
+        "genres" : ["Comedy","Romance"],
+        "cast" : ["SteveCarell","CatherineKeener","PaulRudd","RomanyMalco"],
+        "Directors" : ["JuddApatow"],
+        "Overview" : "Goaded by his buddies, a nerdy guy who's never done the deed only finds the pressure mounting when he meets a single mother.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNWY1NDI0ZTQtMjJiNS00ODY4LWE1NmUtYTkwNzY3NWQ0ZDZjXkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_.jpg",
+        "year" : 2005
+    },
+    {
+        "id" : 10,
+        "title" : "Shaun of the Dead",
+        "genres" : ["Comedy","Horror"],
+        "cast" : ["SimonPegg","NickFrost","LucyDavis","KateAshfield"],
+        "Directors" : ["EdgarWright"],
+        "Overview" : "The uneventful, aimless lives of a London electronics salesman and his layabout roommate are disrupted by the zombie apocalypse.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTg5Mjk2NDMtZTk0Ny00YTQ0LWIzYWEtMWI5MGQ0Mjg1OTNkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "year" : 2004
+    },
+    {
+        "id" : 11,
+        "title" : "Ghostbusters",
+        "genres" : ["Comedy","Fantasy","Action"],
+        "cast" : ["BillMurray","DanAykroyd","HaroldRamis","SigourneyWeaver"],
+        "Directors" : ["IvanReitman"],
+        "Overview" : "Three parapsychologists forced out of their university funding set up shop as a unique ghost removal service in New York City, attracting frightened yet skeptical customers.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNGYzNDM0M2QtZDFkNy00OTI2LWIyNjctNjNhNDM5Zjk3NzU2XkEyXkFqcGdeQXVyNjQ3MDg0MTY@._V1_FMjpg_UX1000_.jpg",
+        "year" : 1984
+    },
+    {
+        "id" : 12,
+        "title" : "Halo",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["PabloSchreiber","YerinHa","OliveGray","ShabanaAzmi"],
+        "Directors" : [],
+        "Overview" : "Aliens threaten human existence in an epic 26th-century showdown. TV series based on the video game Halo.",
+        "image" : "https://i0.wp.com/www.artofvfx.com/wp-content/uploads/2021/11/halo_ver2_xlg.jpg?ssl=1",
+        "year" : 2022
+    },
+    {
+        "id" : 13,
+        "title" : "Doctor Strange in the Multiverse of Madness",
+        "genres" : ["Action","Adventure","SciFi","Fantasy"],
+        "cast" : ["BenedictCumberbatch","ElizabethOlsen","ChiwetelEjiofor","BenedictWong"],
+        "Directors" : ["SamRaimi"],
+        "Overview" : "Dr. Stephen Strange casts a forbidden spell that opens the doorway to the multiverse, including alternate versions of himself, whose threat to humanity is too great for the combined forces of Strange, Wong, and Wanda Maximoff.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        "year" : 2022
+    },
+    {
+        "id" : 14,
+        "title" : "SpiderMan : No Way Home",
+        "genres" : ["Action","Adventure","Fantasy"],
+        "cast" : ["BenedictCumberbatch","TomHolland","JacobBatalon","Zendaya"],
+        "Directors" : ["JonWatts"],
+        "Overview" : "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+        "image" : "https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-mannowayhome_lob_crd_03.jpg",
+        "year" : 2021
+    },
+    {
+        "id" : 15,
+        "title" : "Avatar : The Way of Water",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["MichelleYeoh","ZoeSaldana","SamWorthington","KateWinslet"],
+        "Directors" : ["JamesCameron"],
+        "Overview" : "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
+        "image" : "https://i.pinimg.com/originals/f0/2a/4d/f02a4d54290577864ee41ada8bea5706.jpg",
+        "year" : 2022
+    },
+    {
+        "id" : 16,
+        "title" : "Doctor Strange",
+        "genres" : ["Action","Adventure","Fantasy"],
+        "cast" : ["BenedictCumberbatch","ChiwetelEjiofor","RachelMcAdams","BenedictWong"],
+        "Directors" : ["ScottDerrickson"],
+        "Overview" : "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
+        "year" : 2016
+    },
+    {
+        "id" : 17,
+        "title" : "Aquaman",
+        "genres" : ["Action","Adventure","Fantasy"],
+        "cast" : ["JasonMomoa","AmberHeard","WillemDafoe","PatrickWilson"],
+        "Directors" : ["JamesWan"],
+        "Overview" : "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+        "image" : "https://thumbor.forbes.com/thumbor/640x943/https://blogs-images.forbes.com/scottmendelson/files/2018/11/aquaman-poster-1.jpg?width=960",
+        "year" : 2018
+    },
+    {
+        "id" : 18,
+        "title" : "Avatar",
+        "genres" : ["Action","Adventure","Fantasy"],
+        "cast" : ["SamWorthington","ZoeSaldana","MichelleRodriguez","SigourneyWeaver"],
+        "Directors" : ["JamesCameron"],
+        "Overview" : "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "image" : "https://cdna.artstation.com/p/assets/images/images/031/645/214/large/shreyas-raut-avatar-2.jpg?1604210989",
+        "year" : 2009
+    },
+    {
+        "id" : 19,
+        "title" : "Avengers : Endgame",
+        "genres" : ["Action","Adventure","Drama"],
+        "cast" : ["ChrisEvans","MarkRuffalo","ChrisHemsworth","RobertDowneyJr"],
+        "Directors" : ["AnthonyRusso","JoeRusso"],
+        "Overview" : "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "image" : "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810",
+        "year" : 2019
+    },
+    {
+        "id" : 20,
+        "title" : "Venom : Let There Be Carnage",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["TomHardy","WoodyHarrelson","MichelleWilliams","NaomieHarris"],
+        "Directors" : ["AndySerkis"],
+        "Overview" : "Eddie Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BN2I2Yzc2OWMtMWQzYi00ZDcxLTgyOTMtNjBiNzA5Y2QxZDYxXkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_.jpg",
+        "year" : 2021
+    },
+    {
+        "id" : 21,
+        "title" : "SpiderMan : Into the Darkness",
+        "genres" : ["Action","Adventure","Mystery"],
+        "cast" : ["JoshCogshell","AntonioHoward","DesmondJohnson","DkMost"],
+        "Directors" : ["DkMost"],
+        "Overview" : "To be a hero in this world - doesn't mean you wear a cape, can fly, or can shoot beams out of your eyes. It means to stand up for what's right. To fight the system. The year is 2020, crime is at its highest and hope is running low. Israel Johnson aka Spider-Man has two options. Hang up the suit, or avenge his father's death. But the path to do so isn't as easy as he thinks. In fact, it might just be the most critical thing Spider-Man has ever done",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTZlYzNjOGYtNzM5OC00YmZjLTljMzktMWY3Mzg2YjYxNmZkXkEyXkFqcGdeQXVyMTM0MzMzMTc0._V1_.jpghttps://m.media-amazon.com/images/M/MV5BOTZlYzNjOGYtNzM5OC00YmZjLTljMzktMWY3Mzg2YjYxNmZkXkEyXkFqcGdeQXVyMTM0MzMzMTc0._V1_.jpg",
+        "year" : 2020
+    },
+    {
+        "id" : 22,
+        "title" : "Avengers : Infinity War",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["RobertDowneyJr","ChrisHemsworth","MarkRuffalo","ChrisEvans"],
+        "Directors" : ["AnthonyRusso","JoeRusso"],
+        "Overview" : "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+        "year" : 2018
+    },
+    {
+        "id" : 23,
+        "title" : "Black Widow",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["ScarlettJohansson","FlorencePugh","DavidHarbour","RachelWeisz"],
+        "Directors" : ["CateShortland"],
+        "Overview" : "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "year" : 2021
+    },
+    {
+        "id" : 24,
+        "title" : "SpiderMan : Homecoming",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["TomHolland","MichaelKeaton","RobertDowneyJr","MarisaTomei"],
+        "Directors" : ["JonWatts"],
+        "Overview" : "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOGQ5YTM3YzctOTVmMC00OGIyLWFkZTYtMWYwOWZhMjA2MWMwXkEyXkFqcGdeQXVyMjUyMTE5MA@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2017
+    },
+    {
+        "id" : 25,
+        "title" : "Captain America : Civil War",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["ChrisEvans","RobertDowneyJr","ScarlettJohansson","SebastianStan"],
+        "Directors" : ["AnthonyRusso","JoeRusso"],
+        "Overview" : "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_.jpg",
+        "year" : 2016
+    },
+    {
+        "id" : 26,
+        "title" : "The Avengers",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["ChrisEvans","RobertDowneyJr","ScarlettJohansson","JeremyRenner"],
+        "Directors" : ["JossWhedon"],
+        "Overview" : "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2012
+    },
+    {
+        "id" : 27,
+        "title" : "Avengers : Age of Ultron",
+        "genres" : ["Action","Adventure","SciFi"],
+        "cast" : ["ChrisEvans","RobertDowneyJr","MarkRuffalo","ChrisHemsworth"],
+        "Directors" : ["JossWhedon"],
+        "Overview" : "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2015
+    },
+    {
+        "id" : 28,
+        "title" : "The Eye",
+        "genres" : ["Horror","Mystery"],
+        "cast" : ["JessicaAlba","AlessandroNivola","ParkerPosey","RadeSerbedzija"],
+        "Directors" : ["David Moreau", "Xavier Palud"],
+        "Overview" : "Violinist Sydney Wells was accidentally blinded by her sister Helen when she was five years old. She submits to a cornea transplantation, and while recovering from the operation, she realizes that she is seeing dead people.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZjczYmJhNjUtOTdmYi00MzZlLWEzOWYtNzA1ZGZjMjkwY2YyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2008
+    },
+    {
+        "id" : 29,
+        "title" : "The Evil Dead",
+        "genres" : ["Horror"],
+        "cast" : ["BruceCampbell","EllenSandweiss","RichardDeManincor","BetsyBaker"],
+        "Directors" : ["SamRaimi"],
+        "Overview" : "Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BODc2MmVjZmUtNjAzMS00MDNiLWIyM2YtOGEzMjg0YjRhMzRmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 1981
+    },
+    {
+        "id" : 30,
+        "title" : "A Nightmare on Elm Street",
+        "genres" : ["Horror"],
+        "cast" : ["HeatherLangenkamp", "JohnnyDepp","RobertEnglund", "JohnSaxon"],
+        "Directors" : ["WesCraven"],
+        "Overview" : "Teenager Nancy Thompson must uncover the dark truth concealed by her parents after she and her friends become targets of the spirit of a serial killer with a bladed glove in their dreams, in which if they die, it kills them in real life.",
+        "image" : "https://www.themoviedb.org/t/p/w500/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
+        "year" : 1984
+    },
+    {
+        "id" : 31,
+        "title" : "Dead Silence",
+        "genres" : ["Horror","Mystery","Thriller"],
+        "cast" : ["RyanKwanten","AmberValletta","DonnieWahlberg","MichaelFairman"],
+        "Directors" : ["JamesWan"],
+        "Overview" : "A young widower returns to his hometown to search for answers to his wife's murder, which may be linked to the ghost of a deceased ventriloquist.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjEyNDQwMTQ3OV5BMl5BanBnXkFtZTcwMTY5MzI0MQ@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2007
+    },
+    {
+        "id" : 32,
+        "title" : "The Exorcism of Emily Rose",
+        "genres" : ["Horror","Drama","Thriller"],
+        "cast" : ["LauraLinney","TomWilkinson","ShohrehAghdashloo","CampbellScott"],
+        "Directors" : ["ScottDerrickson"],
+        "Overview" : "A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTI2NTM5MjQ0Nl5BMl5BanBnXkFtZTcwNDAxNjAzMQ@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2005
+    },
+    {
+        "id" : 33,
+        "title" : "Insidious",
+        "genres" : ["Horror","Mystery","Thriller"],
+        "cast" : ["PatrickWilson","RoseByrne","TySimpkins","LinShaye"],
+        "Directors" : ["JamesWan"],
+        "Overview" : "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2010
+    },
+    {
+        "id" : 34,
+        "title" : "Psycho",
+        "genres" : ["Horror","Mystery","Thriller"],
+        "cast" : ["AnthonyPerkins","JanetLeigh","VeraMiles","JohnGavin"],
+        "Directors" : ["AlfredHitchcock"],
+        "Overview" : "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/1200px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg",
+        "year" : 1960
+    },
+    {
+        "id" : 35,
+        "title" : "The Exorcist",
+        "genres" : ["Horror"],
+        "cast" : ["EllenBurstyn","MaxVonSydow","LindaBlair","LeeJCobb"],
+        "Directors" : ["WilliamFriedkin"],
+        "Overview" : "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+        "image" : "https://cdn.europosters.eu/image/1300/posters/the-exorcist-i75296.jpg",
+        "year" : 1973
+    },
+    {
+        "id" : 36,
+        "title" : "Sinister",
+        "genres" : ["Horror","Mystery","Thriller"],
+        "cast" : ["EthanHawke","JulietRylance","JamesRansone","FredThompson"],
+        "Directors" : ["ScottDerrickson"],
+        "Overview" : "Washed-up true crime writer Ellison Oswalt finds a box of super 8 home movies in his new home that suggest the murder that he is currently researching is the work of a serial killer whose legacy dates back to the 1960s.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_.jpg",
+        "year" : 2012
+    },
+    {
+        "id" : 37,
+        "title" : "Poltergeist",
+        "genres" : ["Horror","Thriller"],
+        "cast" : ["JoBethWilliams","HeatherO'Rourke","CraigTNelson","BeatriceStraight"],
+        "Directors" : ["TobeHooper"],
+        "Overview" : "A family's home is haunted by a host of demonic ghosts.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjI2NDM1Nzc3Ml5BMl5BanBnXkFtZTgwNjcyOTIxNTE@._V1_.jpg",
+        "year" : 1982
+    },
+    {
+        "id" : 38,
+        "title" : "House of Wax",
+        "genres" : ["Horror","Thriller"],
+        "cast" : ["ChadMichaelMurray","ParisHilton","ElishaCuthbert","BrianVanHolt"],
+        "Directors" : ["JaumeColletSerra"],
+        "Overview" : "A group of teens are unwittingly stranded near a strange wax museum and soon must fight to survive and keep from becoming the next exhibit.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNDA4Nzg1NjQ2NV5BMl5BanBnXkFtZTcwMDYwNTgyMQ@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2005
+    },
+    {
+        "id" : 39,
+        "title" : "The Birds",
+        "genres" : ["Horror","Mystery","Drama"],
+        "cast" : ["RodTaylor","TippiHedren","JessicaTandy","SuzannePleshette"],
+        "Directors" : ["AlfredHitchcock"],
+        "Overview" : "A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Birds_original_poster.jpg",
+        "year" : 1963
+    },
+    {
+        "id" : 40,
+        "title" : "Mama",
+        "genres" : ["Horror","Thriller","Fantasy"],
+        "cast" : ["JessicaChastain","NikolajCosterWaldau","MeganCharpentier","IsabelleNelisse"],
+        "Directors" : ["AndyMuschietti"],
+        "Overview" : "After a young couple take in their two nieces, they suspect that a supernatural spirit named Mama has latched onto their family.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTM5MjIwNDAwMl5BMl5BanBnXkFtZTcwNzQyOTY0OA@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2013
+    },
+    {
+        "id" : 41,
+        "title" : "Titanic",
+        "genres" : ["Romance","Drama"],
+        "cast" : ["LeonardoDiCaprio","KateWinslet","BillyZane","KathyBates"],
+        "Directors" : ["JamesCameron"],
+        "Overview" : "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+        "image" : "https://cdn.shopify.com/s/files/1/1416/8662/products/titanic_1997_fr_original_film_art_1200x.jpg?v=1619289844",
+        "year" : 1997
+    },
+    {
+        "id" : 42,
+        "title" : "City of Angels",
+        "genres" : ["Romance","Drama"],
+        "cast" : ["NicolasCage","MegRyan","AndreBraugher","DennisFranz"],
+        "Directors" : ["BradSilberling"],
+        "Overview" : "An angel on Earth, a doctor unable to believe, a patient with a secret, a love story made in Heaven.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZjk2OTEwNDEtNjVhYi00MzI3LWFhNzctZGUzOWMxMDMwZjJlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 1998
+    },
+    {
+        "id" : 43,
+        "title" : "The English Patient",
+        "genres" : ["Romance","Drama","War"],
+        "cast" : ["RalphFiennes","JulietteBinoche","WillemDafoe","KristinScottThomas"],
+        "Directors" : ["AnthonyMinghella"],
+        "Overview" : "At the close of World War II, a young nurse tends to a badly-burned plane crash victim. His past is shown in flashbacks, revealing an involvement in a fateful love affair.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTkxZTdkNTQtM2QwOS00NzRlLWEyMGItYTcxOTE4NTgyNGVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 1996
+    },
+    {
+        "id" : 44,
+        "title" : "While You Were Sleeping",
+        "genres" : ["Romance","Drama","Comedy"],
+        "cast" : ["SandraBullock","BillPullman","PeterGallagher","PeterBoyle"],
+        "Directors" : ["JonTurteltaub"],
+        "Overview" : "A hopelessly romantic Chicago Transit Authority token collector is mistaken for the fiancée of a coma patient.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTk2MDg2MjgzOF5BMl5BanBnXkFtZTYwMTU5NTc5._V1_.jpg",
+        "year" : 1995
+    },
+    {
+        "id" : 45,
+        "title" : "Bridget Jones's Diary",
+        "genres" : ["Romance","Drama","Comedy"],
+        "cast" : ["ColinFirth","HughGrant","GemmaJones","ReneeZellweger"],
+        "Directors" : ["SharonMaguire"],
+        "Overview" : "Bridget Jones is determined to improve herself while she looks for love in a year in which she keeps a personal diary.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BYjc3NjU1ZTEtNmNjNi00YzNiLWI3OWQtMTJmYTRkZDc1NDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 2001
+    },
+    {
+        "id" : 46,
+        "title" : "The Notebook",
+        "genres" : ["Romance","Drama"],
+        "cast" : ["GenaRowlands","JamesGarner","RachelMcAdams","RyanGosling"],
+        "Directors" : ["NickCassavetes"],
+        "Overview" : "A poor yet passionate young man (Ryan Gosling) falls in love with a rich young woman (Rachel McAdams), giving her a sense of freedom, but they are soon separated because of their social differences.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_FMjpg_UX1000_.jpg",
+        "year" : 2004
+    },
+    {
+        "id" : 47,
+        "title" : "Clueless",
+        "genres" : ["Romance","Comedy"],
+        "cast" : ["AliciaSilverstone","StaceyDash","PaulRudd","BrittanyMurphy"],
+        "Directors" : ["AmyHeckerling"],
+        "Overview" : "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMzBmOGQ0NWItOTZjZC00ZDAxLTgyOTEtODJiYWQ2YWNiYWVjXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
+        "year" : 1995
+    },
+    {
+        "id" : 48,
+        "title" : "Revolutionary Road",
+        "genres" : ["Romance","Drama"],
+        "cast" : ["LeonardoDiCaprio","KateWinslet","ChristopherFitzgerald","JonathanRoumie"],
+        "Directors" : ["SamMendes"],
+        "Overview" : "A young couple living in a Connecticut suburb during the mid-1950s struggle to come to terms with their personal problems while trying to raise their two children.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTczNDgzMjczOV5BMl5BanBnXkFtZTcwOTU3MzMwMg@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2008
+    },
+    {
+        "id" : 49,
+        "title" : "Sleepless in Seattle",
+        "genres" : ["Romance","Drama","Comedy"],
+        "cast" : ["MegRyan","TomHanks","RossMalinger","RitaWilson"],
+        "Directors" : ["NoraEphron"],
+        "Overview" : "A recently widowed man's son calls a radio talk-show in an attempt to find his father a partner.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BNWY1MDJkZGUtZTE2OS00ODZiLTlmNzQtMDZjNzM2ZjkwM2QxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "year" : 1993
+    },
+    {
+        "id" : 50,
+        "title" : "Love & Basketball",
+        "genres" : ["Romance","Drama","Sport"],
+        "cast" : ["SanaaLathan","OmarEpps","GlenndonChatman","JessWillard"],
+        "Directors" : ["GinaPrinceBythewood"],
+        "Overview" : "Monica and Quincy love and play basketball together through many life challenges from childhood to adulthood.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTU4NjY4NTI5MF5BMl5BanBnXkFtZTYwNjQ4OTc3._V1_FMjpg_UX1000_.jpg",
+        "year" : 2000
+    },
+    {
+        "id" : 51,
+        "title" : "Zootopia",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["GinniferGoodwin","JasonBateman","IdrisElba","JennySlate"],
+        "Directors" : ["ByronHoward"],
+        "Overview" : "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_.jpg",
+        "year" : 2016
+    },
+    {
+        "id" : 52,
+        "title" : "Up",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["EdwardAsner","JordanNagai","JohnRatzenberger","ChristopherPlummer"],
+        "Directors" : ["PeteDocter","BobPeterson"],
+        "Overview" : "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_.jpg",
+        "year" : 2009
+    },
+    {
+        "id" : 53,
+        "title" : "The Incredibles",
+        "genres" : ["Animation","Adventure","Action"],
+        "cast" : ["CraigTNelson","SamuelLJackson","HollyHunter","JasonLee"],
+        "Directors" : ["BradBird"],
+        "Overview" : "While trying to leave a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",
+        "year" : 2004
+    },
+    {
+        "id" : 54,
+        "title" : "Big Hero 6",
+        "genres" : ["Animation","Adventure","Action"],
+        "cast" : ["RyanPotter","ScottAdsit","JamieChung","TJMiller"],
+        "Directors" : ["DonHall","ChrisWilliams"],
+        "Overview" : "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+        "image" : "https://lumiere-a.akamaihd.net/v1/images/p_bighero6_19753_20bd6206.jpeg",
+        "year" : 2014
+    },
+    {
+        "id" : 55,
+        "title" : "How to Train Your Dragon",
+        "genres" : ["Animation","Adventure","Action"],
+        "cast" : ["JayBaruchel","GerardButler","ChristopherMintzPlasse","CraigFerguson"],
+        "Directors" : ["DeanDeBlois","ChrisSanders"],
+        "Overview" : "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_.jpg",
+        "year" : 2010
+    },
+    {
+        "id" : 56,
+        "title" : "Coco",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["AnthonyGonzalez","GaelGarciaBernal","BenjaminBratt","AlannaUbach"],
+        "Directors" : ["LeeUnkrich","AdrianMolina"],
+        "Overview" : "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+        "image" : "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg",
+        "year" : 2017
+    },
+    {
+        "id" : 57,
+        "title" : "The Aristocats",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["PhilHarris","EvaGabor","SterlingHolloway","ScatmanCrothers"],
+        "Directors" : ["WolfgangReitherman"],
+        "Overview" : "With the help of a smooth talking tomcat, a family of Parisian felines set to inherit a fortune from their owner try to make it back home after a jealous butler kidnaps them and leaves them in the country.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTU1MzM0MjcxMF5BMl5BanBnXkFtZTgwODQ0MzcxMTE@._V1_.jpg",
+        "year" : 1970
+    },
+    {
+        "id" : 58,
+        "title" : "Frozen",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["KristenBell","IdinaMenzel","JonathanGroff","JoshGad"],
+        "Directors" : ["ChrisBuck","JenniferLee"],
+        "Overview" : "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/81zbSEXnDOL.jpg",
+        "year" : 2013
+    },
+    {
+        "id" : 59,
+        "title" : "Toy Story 3",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["TomHanks","TimAllen","JoanCusack","NedBeatty"],
+        "Directors" : ["LeeUnkrich"],
+        "Overview" : "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg",
+        "year" : 2010
+    },
+    {
+        "id" : 60,
+        "title" : "How to Train Your Dragon 2",
+        "genres" : ["Animation","Adventure","Action"],
+        "cast" : ["JayBaruchel","CateBlanchett","GerardButler","CraigFerguson"],
+        "Directors" : ["DeanDeBlois"],
+        "Overview" : "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMzMwMTAwODczN15BMl5BanBnXkFtZTgwMDk2NDA4MTE@._V1_.jpg",
+        "year" : 2014
+    },
+    {
+        "id" : 61,
+        "title" : "Shrek",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["MikeMyers","EddieMurphy","CameronDiaz","JohnLithgow"],
+        "Directors" : ["AndrewAdamson","VickyJenson"],
+        "Overview" : "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 2001
+    },
+    {
+        "id" : 62,
+        "title" : "Toy Story",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["TomHanks","TimAllen","DonRickles"],
+        "Directors" : ["JohnLasseter"],
+        "Overview" : "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_.jpg",
+        "year" : 1995
+    },
+    {
+        "id" : 63,
+        "title" : "Toy Story 2",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["TomHanks","TimAllen","JoanCusack","DonRickles"],
+        "Directors" : ["JohnLasseter","AshBrannon","LeeUnkrich"],
+        "Overview" : "When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property with his roundup gang Jessie, Prospector, and Bullseye.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+        "year" : 1999
+    },
+    {
+        "id" : 64,
+        "title" : "Toy Story 4",
+        "genres" : ["Animation","Adventure","Comedy"],
+        "cast" : ["TomHanks","TimAllen","AnniePotts","TonyHale"],
+        "Directors" : ["JoshCooley"],
+        "Overview" : "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_.jpg",
+        "year" : 2019
+    }
+]
