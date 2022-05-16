@@ -11,41 +11,42 @@
     <script src="JS Files/similarity_matrix.js" defer></script>
     <script src="JS Files/recommender.js" defer></script>
     <script src="JS Files/app.js" defer></script>
+    <link rel="stylesheet" href="CSS Files/utils.css">
     <link rel="stylesheet" href="CSS Files/styles.css">
 </head>
 <body>
     <div id="background-img">
         <img src="Images/background-image.jpg" alt="">
     </div>
-    <div id="header">
-        <div id="website-logo">
+    <div id="header" class="flex align-center justify-start">
+        <div id="website-logo" class="flex">
             <img src="Images/website-logo.jpg" alt="">
         </div>
-        <div id="website-name">
+        <div id="website-name" class="flex justify-center text-center">
             <div id="website-name-title">
                 Movie Junction
             </div>
         </div>
     </div>
-    <div id="search-area">
+    <div id="search-area" class="flex justify-center">
         <input type="text" placeholder="Search Movie" class="search-text" autofocus>
         <button type="button" class="search-button">Search</button>
     </div>
-    <div class="current-movie">
+    <div class="current-movie flex-col align-center">
         <div class="current-movie-poster">
-            <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg">
+            <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg" class="poster-shadow">
         </div>
-        <div class="current-movie-info">
-            <div class="current-movie-title"></div>
-            <div class="current-movie-genres"></div>
-            <div class="current-movie-overview"></div>
+        <div class="current-movie-info flex-col align-center display-none">
+            <div class="current-movie-title text-center"></div>
+            <div class="current-movie-genres flex-wrap justify-center"></div>
+            <div class="current-movie-overview text-center"></div>
         </div>
     </div>
-    <div class="recommendations-header">
-        <h2>You may also like</h2>
+    <div class="recommendations-header flex justify-center display-none">
+        <h2 class="text-center">You may also like</h2>
     </div>
-    <div class="recommendations"></div>
-    <div id="footer">
+    <div class="recommendations flex-wrap justify-center align-center display-none"></div>
+    <div id="footer" class="text-center">
         Made with <span>&#10084</span> by Debanjan Poddar
     </div>
 </body>
