@@ -10,6 +10,7 @@ const current_movie_overview = document.querySelector('.current-movie-overview')
 const current_movie_genres = document.querySelector('.current-movie-genres');
 const recommendations_container = document.querySelector('.recommendations');
 const recommendation_header = document.querySelector('.recommendations-header');
+const stock_img_URL = "https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg";
 // <------------------------ End of Selecting Elements from HTML ---------------------------->
 
 fetch("./movies.json")
@@ -38,6 +39,7 @@ function change_movie(data, movies, similarity_matrix) {
     let recommendations = recommend(movie_name, movies, similarity_matrix);
     if(!recommendations.length) {
         current_movie_info.classList.add('display-none');
+        current_movie_poster.src = stock_img_URL;
         recommendations_container.classList.add('display-none');
         recommendation_header.classList.add('display-none');
         return;
