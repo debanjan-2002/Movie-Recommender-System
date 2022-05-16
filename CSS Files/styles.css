@@ -30,16 +30,16 @@ body {
 
 #header {
     /* border: 2px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
     /* gap: 1em; */
     padding: 1em;
     background-color: rgb(41, 40, 40);
 }
 #website-logo {
     /* border: 2px solid black; */
-    display: flex;
+    /* display: flex; */
     border-radius: 50%;
 }
 #website-logo img {
@@ -51,11 +51,11 @@ body {
     /* border: 2px solid black; */
     font-size: 2rem;
     flex-grow: 1;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 800;
     /* background-color: white; */
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 #website-name-title {
     width: max-content;
@@ -67,9 +67,9 @@ body {
 }
 #search-area {
     background-color: #333;
-    display: flex;
+    /* display: flex; */
     gap: 2em;
-    justify-content: center;
+    /* justify-content: center; */
     max-width: 90%;
     margin: 0 auto;
     margin-top: 1em;
@@ -108,9 +108,9 @@ body {
 }
 .current-movie {
     /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     margin-top: 2em;
     gap: 1em;
 }
@@ -122,14 +122,14 @@ body {
 .current-movie-poster img {
     width: 100%;
     border: 5px solid white;
-    box-shadow:
+    /* box-shadow:
     1.9px 2px 1.4px rgba(0, 0, 0, 0.102),
     4.5px 4.6px 3.3px rgba(0, 0, 0, 0.124),
     8.1px 8.3px 5.9px rgba(0, 0, 0, 0.133),
     13.5px 13.8px 9.8px rgba(0, 0, 0, 0.138),
     22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
     38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
-    84px 86px 61px rgba(0, 0, 0, 0.18);
+    84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-radius: 5px;
 }
 .current-movie-info {
@@ -141,14 +141,14 @@ body {
     color: white;
     padding: 0.7em;
     min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     gap: 1.5em;
 }
 .current-movie-title {
     font-size: 2rem;
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
     color:black;
     font-weight: 700;
@@ -159,9 +159,9 @@ body {
 }
 .current-movie-genres {
     /* border: 2px solid white; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
     gap: 1em;
     font-size: 1.2rem;
     font-weight: 600;
@@ -175,16 +175,16 @@ body {
 .current-movie-overview {
     border-top: 2px solid white;
     font-size: 1.5rem;
-    text-align: center;
+    /* text-align: center; */
 }
 .recommendations-header {
     /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     margin-top: 2em;
 }
 h2 {
-    text-align: center;
+    /* text-align: center; */
     color: white;
     background-color: #333;
     width: 70%;
@@ -195,10 +195,10 @@ h2 {
 .recommendations {
     /* border: 2px solid black; */
     margin-top: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
     gap: 1.5em;
 }
 .recommendations div img {
@@ -207,14 +207,14 @@ h2 {
     width: 270px;
     height: 390px;
     border: 5px solid white;
-    box-shadow:
+    /* box-shadow:
     1.9px 2px 1.4px rgba(0, 0, 0, 0.102),
     4.5px 4.6px 3.3px rgba(0, 0, 0, 0.124),
     8.1px 8.3px 5.9px rgba(0, 0, 0, 0.133),
     13.5px 13.8px 9.8px rgba(0, 0, 0, 0.138),
     22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
     38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
-    84px 86px 61px rgba(0, 0, 0, 0.18);
+    84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-radius: 5px;
 }
 #footer {
@@ -224,15 +224,11 @@ h2 {
     width: 100%;
     background-color: rgb(41, 40, 40);
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1.2rem;
     padding: 0.4em 0;
     font-weight: 700;
 }
 #footer span {
     color: red;
-}
-
-.display {
-    display: none;
 }
