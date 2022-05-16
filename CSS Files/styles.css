@@ -27,6 +27,18 @@ body {
     min-height: 50%;
     opacity: 0.5;
 }
+::-webkit-scrollbar {
+    width: 1.5em;
+}
+::-webkit-scrollbar-track {
+    background-color: #333;
+    /* border-radius: 100vw; */
+    /* margin-block: 0.5em; */
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 97, 97);
+    /* border-radius: 100vw; */
+}
 
 #header {
     /* border: 2px solid black; */
