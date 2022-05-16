@@ -1,12 +1,16 @@
 // Fetching the JSON Data and calling all the functions to prepare recommendations
 
+// <------------------------ Selecting Elements from HTML ----------------------------------->
 const btn = document.querySelector('.search-button');
 const search_input = document.querySelector('.search-text');
+const current_movie_info = document.querySelector('.current-movie-info');
 const current_movie_poster = document.querySelector('.current-movie-poster img');
 const current_movie_title = document.querySelector('.current-movie-title');
 const current_movie_overview = document.querySelector('.current-movie-overview');
 const current_movie_genres = document.querySelector('.current-movie-genres');
 const recommendations_container = document.querySelector('.recommendations');
+const recommendation_header = document.querySelector('.recommendations-header');
+// <------------------------ End of Selecting Elements from HTML ---------------------------->
 
 fetch("./movies.json")
 .then((res) => res.json())
@@ -32,17 +36,24 @@ fetch("./movies.json")
 function change_movie(data, movies, similarity_matrix) {
     const movie_name = search_input.value;
     let recommendations = recommend(movie_name, movies, similarity_matrix);
-    if(!recommendations.length) return;
+    if(!recommendations.length) {
+        current_movie_info.classList.add('display-none');
+        recommendations_container.classList.add('display-none');
+        recommendation_header.classList.add('display-none');
+        return;
+    }
 
     const current_movie = recommendations[5];
-    
+    current_movie_info.classList.remove('display-none');
+    recommendations_container.classList.remove('display-none');
+    recommendation_header.classList.remove('display-none');
+
     current_movie_poster.src = current_movie.image;
     current_movie_title.innerText = `${current_movie.title} (${data[current_movie.id - 1].year})`;
     current_movie_overview.innerText = data[current_movie.id - 1].Overview;
+
     update_genres(data, current_movie);
     update_recommendations(recommendations);
-    console.log(current_movie)
-
 }
 function update_genres(data, current_movie) {
     const movie_genres_arr = data[current_movie.id - 1].genres;
@@ -62,6 +73,7 @@ function update_recommendations(recommendations) {
         const new_img_div = document.createElement('div');
         const new_img = document.createElement('img');
         new_img.src = new_movie.image;
+        new_img.classList.add('poster-shadow');
 
         new_img_div.append(new_img);
         recommendations_container.append(new_img_div);
