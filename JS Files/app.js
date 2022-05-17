@@ -10,6 +10,7 @@ const searched_movie_overview = document.querySelector('.searched-movie-overview
 const searched_movie_genres = document.querySelector('.searched-movie-genres');
 const recommendations_container = document.querySelector('.recommendations');
 const recommendation_header = document.querySelector('.recommendations-header');
+const root_element = document.documentElement;
 const stock_img_URL = "https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg";
 // <------------------------ End of Selecting Elements from HTML ---------------------------->
 
@@ -102,6 +103,14 @@ function change_movie_on_recommendation_click(data, movies, similarity_matrix) {
         recommended_movies[i].addEventListener('click', () => {
             const current_recommended_movie_title = recommended_movies[i].dataset.title;
             change_movie(data, movies, current_recommended_movie_title, similarity_matrix);
+            scroll_to_top();
         });
     }
+}
+
+function scroll_to_top() {
+    root_element.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 }
