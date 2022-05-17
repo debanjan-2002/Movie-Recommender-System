@@ -119,7 +119,7 @@ body {
     background-color: white;
     color: black;
 }
-.current-movie {
+.searched-movie {
     /* border: 2px solid black; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -127,12 +127,12 @@ body {
     margin-top: 2em;
     gap: 1em;
 }
-.current-movie-poster {
+.searched-movie-poster {
     /* border: 2px solid black; */
     max-width: 300px;
     /* margin-top: 2em; */
 }
-.current-movie-poster img {
+.searched-movie-poster img {
     width: 100%;
     border: 5px solid white;
     /* box-shadow:
@@ -145,7 +145,7 @@ body {
     84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-radius: 5px;
 }
-.current-movie-info {
+.searched-movie-info {
     border: 2px solid white;
     border-radius: 7px;
     width: 70%;
@@ -159,7 +159,7 @@ body {
     /* align-items: center; */
     gap: 1.5em;
 }
-.current-movie-title {
+.searched-movie-title {
     font-size: 2rem;
     /* text-align: center; */
     background-color: white;
@@ -170,7 +170,7 @@ body {
     width: fit-content;
     padding: 0 10px;
 }
-.current-movie-genres {
+.searched-movie-genres {
     /* border: 2px solid white; */
     /* display: flex; */
     /* flex-wrap: wrap; */
@@ -179,13 +179,13 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
 }
-.current-movie-genres span {
+.searched-movie-genres span {
     background-color: white;
     color: black;
     padding: 0.5em;
     border-radius: 5px;
 }
-.current-movie-overview {
+.searched-movie-overview {
     border-top: 2px solid white;
     font-size: 1.5rem;
     /* text-align: center; */
@@ -229,6 +229,9 @@ h2 {
     38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
     84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-radius: 5px;
+}
+.recommendations div img:hover {
+    cursor: pointer;
 }
 #footer {
     position: fixed;
