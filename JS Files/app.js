@@ -4,11 +4,14 @@
 const search_btn = document.querySelector('.search-button');
 const search_input = document.querySelector('.search-text');
 const searched_movie_info = document.querySelector('.searched-movie-info');
-const searched_movie_poster = document.querySelector('.searched-movie-poster img');
+const searched_movie_poster = document.querySelector('.searched-movie-poster .movie-poster');
 const searched_movie_title = document.querySelector('.searched-movie-title');
 const searched_movie_overview = document.querySelector('.searched-movie-overview');
 const searched_movie_genres = document.querySelector('.searched-movie-genres');
 const recommendations_container = document.querySelector('.recommendations');
+const rating_container = document.querySelector('.ratings')
+const like_btn = document.querySelector('.like-button');
+const dislike_btn = document.querySelector('.dislike-button');
 const recommendation_header = document.querySelector('.recommendations-header');
 const root_element = document.documentElement;
 const stock_img_URL = "https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg";
@@ -38,22 +41,39 @@ fetch("./movies.json")
 });
 
 function change_movie(data, movies, movie_name, similarity_matrix) {
-    let recommendations = recommend(movie_name, movies, similarity_matrix);
-    if(!recommendations.length) {
-        remove_recommendation_container();
-        return;
-    }
+    const movie_index = is_movie_present(movie_name, movies);
+    rating_container.classList.add('display-none');
+    remove_recommendation_container();
 
-    const searched_movie = recommendations[5];
-    add_recommendation_container();
+    if(movie_index === -1) return;
+    
+    const searched_movie = movies[movie_index];
+    
+    add_searched_movie_container();
 
     searched_movie_poster.src = searched_movie.image;
     searched_movie_title.innerText = `${searched_movie.title} (${data[searched_movie.id - 1].year})`;
     searched_movie_overview.innerText = data[searched_movie.id - 1].Overview;
-
     update_genres(data, searched_movie);
-    update_recommendations(recommendations);
-    change_movie_on_recommendation_click(data, movies, similarity_matrix);
+
+    like_btn.addEventListener('click', () => {
+        let recommendations = recommend(movie_name, movie_index, movies, similarity_matrix, 1);
+        add_recommendation_container();
+        update_recommendations(recommendations);
+        change_movie_on_recommendation_click(data, movies, similarity_matrix);
+    })
+    dislike_btn.addEventListener('click', () => {
+        let recommendations = recommend(movie_name, movie_index, movies, similarity_matrix, 0);
+        add_recommendation_container();
+        update_recommendations(recommendations);
+        change_movie_on_recommendation_click(data, movies, similarity_matrix);
+    })
+    
+}
+
+function add_searched_movie_container() {
+    searched_movie_info.classList.remove('display-none');
+    rating_container.classList.remove('display-none');
 }
 
 function update_genres(data, searched_movie) {
@@ -84,7 +104,6 @@ function update_recommendations(recommendations) {
 }
 
 function add_recommendation_container() {
-    searched_movie_info.classList.remove('display-none');
     recommendations_container.classList.remove('display-none');
     recommendation_header.classList.remove('display-none');
 }
@@ -102,6 +121,7 @@ function change_movie_on_recommendation_click(data, movies, similarity_matrix) {
     for(let i = 0; i < recommended_movies.length; i++) {
         recommended_movies[i].addEventListener('click', () => {
             const current_recommended_movie_title = recommended_movies[i].dataset.title;
+            remove_recommendation_container();
             change_movie(data, movies, current_recommended_movie_title, similarity_matrix);
             scroll_to_top();
         });
