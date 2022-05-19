@@ -57,13 +57,13 @@ function change_movie(data, movies, movie_name, similarity_matrix) {
     update_genres(data, searched_movie);
 
     like_btn.addEventListener('click', () => {
-        let recommendations = recommend(movie_name, movie_index, movies, similarity_matrix, 1);
+        let recommendations = recommend(movie_index, movies, similarity_matrix, 1);
         add_recommendation_container();
         update_recommendations(recommendations);
         change_movie_on_recommendation_click(data, movies, similarity_matrix);
     })
     dislike_btn.addEventListener('click', () => {
-        let recommendations = recommend(movie_name, movie_index, movies, similarity_matrix, 0);
+        let recommendations = recommend(movie_index, movies, similarity_matrix, 0);
         add_recommendation_container();
         update_recommendations(recommendations);
         change_movie_on_recommendation_click(data, movies, similarity_matrix);
