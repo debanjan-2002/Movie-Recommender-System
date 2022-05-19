@@ -130,6 +130,7 @@ body {
 .searched-movie-poster {
     /* border: 2px solid black; */
     max-width: 300px;
+    /* border-radius: 5px; */
     /* margin-top: 2em; */
 }
 .searched-movie-poster img {
@@ -143,8 +144,36 @@ body {
     22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
     38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
     84px 86px 61px rgba(0, 0, 0, 0.18); */
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+.ratings {
+    border: 5px solid white;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    max-width: 300px;
+    background-color: #333;
+    margin-top: -10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    gap: 2em;
+    padding: 0.5em;
+}
+.ratings img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 1em;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.like-button {background-color: rgb(19, 153, 19);}
+.dislike-button {background-color:rgb(249, 110, 110);}
+
+.like-button:hover {background-color:greenyellow}
+.dislike-button:hover {background-color:red}
+
 .searched-movie-info {
     border: 2px solid white;
     border-radius: 7px;
