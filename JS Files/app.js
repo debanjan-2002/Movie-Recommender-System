@@ -14,7 +14,7 @@ const like_btn = document.querySelector('.like-button');
 const dislike_btn = document.querySelector('.dislike-button');
 const recommendation_header = document.querySelector('.recommendations-header');
 const root_element = document.documentElement;
-const stock_img_URL = "https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-red-creative-movie-poster-background-image_178867.jpg";
+const stock_img_URL = "Images/stock poster.jpg";
 // <------------------------ End of Selecting Elements from HTML ---------------------------->
 
 fetch("./movies.json")
