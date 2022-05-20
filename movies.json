@@ -274,7 +274,7 @@
         "title" : "The Eye",
         "genres" : ["Horror","Mystery"],
         "cast" : ["JessicaAlba","AlessandroNivola","ParkerPosey","RadeSerbedzija"],
-        "Directors" : ["David Moreau", "Xavier Palud"],
+        "Directors" : ["DavidMoreau", "XavierPalud"],
         "Overview" : "Violinist Sydney Wells was accidentally blinded by her sister Helen when she was five years old. She submits to a cornea transplantation, and while recovering from the operation, she realizes that she is seeing dead people.",
         "image" : "https://m.media-amazon.com/images/M/MV5BZjczYmJhNjUtOTdmYi00MzZlLWEzOWYtNzA1ZGZjMjkwY2YyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg",
         "year" : 2008
@@ -748,5 +748,105 @@
         "Overview" : "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
         "image" : "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_.jpg",
         "year" : 2022
+    },
+    {
+        "id" : 76,
+        "title" : "Million Dollar Baby",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["HilarySwank","ClintEastwood","MorganFreeman","JayBaruchel"],
+        "Directors" : ["ClintEastwood"],
+        "Overview" : "A determined woman works with a hardened boxing trainer to become a professional.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_.jpg",
+        "year" : 2004
+    },
+    {
+        "id" : 77,
+        "title" : "Rocky",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["SylvesterStallone","TaliaShire","BurtYoung","CarlWeathers"],
+        "Directors" : ["JohnGAvildsen"],
+        "Overview" : "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+        "image" : "https://cdn.europosters.eu/image/1300/posters/rocky-main-poster-i116373.jpg",
+        "year" : 1976
+    },
+    {
+        "id" : 78,
+        "title" : "Raging Bull",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["RobertDeNiro","CathyMoriarty","JoePesci","FrankVincent"],
+        "Directors" : ["MartinScorsese"],
+        "Overview" : "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
+        "year" : 1980
+    },
+    {
+        "id" : 79,
+        "title" : "Friday Night Lights",
+        "genres" : ["Sport","Drama","Action"],
+        "cast" : ["BillyBobThornton", "JayHernandez", "DerekLuke","LucasBlack"],
+        "Directors" : ["PeterBerg"],
+        "Overview" : "Based on H.G. Bissinger's book, which profiled the economically depressed town of Odessa, Texas and their heroic high school football team, The Permian High Panthers.",
+        "image" : "https://d9nvuahg4xykp.cloudfront.net/1207159079417180278/-5932481249062161973.jpg",
+        "year" : 2004
+    },
+    {
+        "id" : 80,
+        "title" : "Hoosiers",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["GeneHackman", "BarbaraHershey","DennisHopper","ShebWooley"],
+        "Directors" : ["DavidAnspaugh"],
+        "Overview" : "A coach with a checkered past and a local drunk train a small town high school basketball team to become a top contender for the championship.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTYyNTc0OTUwNV5BMl5BanBnXkFtZTcwODA3NzE0NA@@._V1_.jpg",
+        "year" : 1986
+    },
+    {
+        "id" : 81,
+        "title" : "Jersey",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["Nani","ShraddhaSrinath","Sathyaraj","RonitKamra"],
+        "Directors" : ["GowtamTinnanuri"],
+        "Overview" : "A failed cricketer decides to revive his cricketing career in his late 30's despite everyone being skeptical of his ability to do so.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZjViYjRjODItYzI4ZC00MzI4LTkwYTQtZjI5ZjAzZWViMTZlXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg",
+        "year" : 2021
+    },
+    {
+        "id" : 82,
+        "title" : "The Wrestler",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["MickeyRourke","MarisaTomei","EvanRachelWood","MarkMargolis"],
+        "Directors" : ["DarrenAronofsky"],
+        "Overview" : "A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTc5MjYyOTg4MF5BMl5BanBnXkFtZTcwNDc2MzQwMg@@._V1_FMjpg_UX1000_.jpg",
+        "year" : 2008
+    },
+    {
+        "id" : 83,
+        "title" : "He Got Game",
+        "genres" : ["Sport","Drama"],
+        "cast" : ["DenzelWashington","MillaJovovich","RayAllen","RosarioDawson"],
+        "Directors" : ["SpikeLee"],
+        "Overview" : "A basketball player's father must try to convince him to go to a college so he can get a shorter sentence.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMDEzZjM2ZmItODczNC00OGE3LWE3YTEtMTA3OWZiNTkwYmI1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "year" : 1998
+    },
+    {
+        "id" : 84,
+        "title" : "Invincible",
+        "genres" : ["Sport","Drama","Biography"],
+        "cast" : ["MarkWahlberg","GregKinnear","ElizabethBanks","KevinConway"],
+        "Directors" : ["EricsonCore"],
+        "Overview" : "Based on the story of Vince Papale, a 30-year-old bartender from South Philadelphia who overcame long odds to play for the NFL's Philadelphia Eagles in 1976.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjA1NjI2ODA5MF5BMl5BanBnXkFtZTcwNjMyMTMzMQ@@._V1_.jpg",
+        "year" : 2006
+    },
+    {
+        "id" : 85,
+        "title" : "The Blind Side",
+        "genres" : ["Sport","Drama","Biography"],
+        "cast" : ["QuintonAaron","SandraBullock","TimMcGraw","JaeHead"],
+        "Directors" : ["JohnLeeHancock"],
+        "Overview" : "The story of Michael Oher, a homeless and traumatized boy who became an All-American football player and first-round NFL draft pick with the help of a caring woman and her family.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_.jpg",
+        "year" : 2009
     }
 ]
