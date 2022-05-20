@@ -121,9 +121,9 @@ function change_movie_on_recommendation_click(data, movies, similarity_matrix) {
     for(let i = 0; i < recommended_movies.length; i++) {
         recommended_movies[i].addEventListener('click', () => {
             const current_recommended_movie_title = recommended_movies[i].dataset.title;
+            scroll_to_top();
             remove_recommendation_container();
             change_movie(data, movies, current_recommended_movie_title, similarity_matrix);
-            scroll_to_top();
         });
     }
 }
