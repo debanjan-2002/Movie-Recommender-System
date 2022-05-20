@@ -178,8 +178,8 @@ body {
     border: 2px solid white;
     border-radius: 7px;
     width: 70%;
-    background-color: #333;
-    /* opacity: 0.4; */
+    /* background-color: #333; */
+    /* opacity: 0.9; */
     color: white;
     padding: 0.7em;
     min-width: 300px;
@@ -187,6 +187,18 @@ body {
     /* flex-direction: column; */
     /* align-items: center; */
     gap: 1.5em;
+    position: relative;
+    backdrop-filter: blur(2px);
+    /* -webkit-backdrop-filter: blur(2px); */
+}
+.searched-movie-info::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background-color: #333;
+    inset: 0;
+    opacity: 0.85;
+    border-radius: 7px;
 }
 .searched-movie-title {
     font-size: 2rem;
@@ -206,13 +218,14 @@ body {
     /* justify-content: center; */
     gap: 1em;
     font-size: 1.2rem;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .searched-movie-genres span {
     background-color: white;
     color: black;
     padding: 0.5em;
     border-radius: 5px;
+    font-weight: 600;
 }
 .searched-movie-overview {
     border-top: 2px solid white;
