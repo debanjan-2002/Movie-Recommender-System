@@ -10,6 +10,7 @@
     <script src="JS Files/vectorization.js" defer></script>
     <script src="JS Files/similarity_matrix.js" defer></script>
     <script src="JS Files/recommender.js" defer></script>
+    <script src="JS Files/suggestions.js" defer></script>
     <script src="JS Files/app.js" defer></script>
     <link rel="stylesheet" href="CSS Files/utils.css">
     <link rel="stylesheet" href="CSS Files/styles.css">
@@ -29,7 +30,10 @@
         </div>
     </div>
     <div id="search-area" class="flex justify-center">
-        <input type="text" placeholder="Search Movie" class="search-text" autofocus>
+        <div class="search-container">
+            <input type="text" placeholder="Search Movie" class="search-text" autofocus>
+            <ul class="search-suggestions"></ul>
+        </div>
         <button type="button" class="search-button">Search</button>
     </div>
     <div class="searched-movie flex-col align-center">
