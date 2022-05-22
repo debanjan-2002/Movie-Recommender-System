@@ -31,7 +31,7 @@
     },
     {
         "id" : 4,
-        "title" : "Ferris Bueller's Day Off",
+        "title" : "Ferris Buellers Day Off",
         "genres" : ["Comedy"],
         "cast" : ["MatthewBroderick","AlanRuck","MiaSara","JeffreyJones"],
         "Directors" : ["JohnHudges"],
@@ -251,7 +251,7 @@
     },
     {
         "id" : 26,
-        "title" : "The Avengers",
+        "title" : "Avengers",
         "genres" : ["Action","Adventure","SciFi"],
         "cast" : ["ChrisEvans","RobertDowneyJr","ScarlettJohansson","JeremyRenner"],
         "Directors" : ["JossWhedon"],
@@ -441,7 +441,7 @@
     },
     {
         "id" : 45,
-        "title" : "Bridget Jones's Diary",
+        "title" : "Bridget Jones Diary",
         "genres" : ["Romance","Drama","Comedy"],
         "cast" : ["ColinFirth","HughGrant","GemmaJones","ReneeZellweger"],
         "Directors" : ["SharonMaguire"],
