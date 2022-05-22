@@ -3,6 +3,7 @@
 // <------------------------ Selecting Elements from HTML ----------------------------------->
 const search_btn = document.querySelector('.search-button');
 const search_input = document.querySelector('.search-text');
+const search_suggestions = document.querySelector('.search-suggestions');
 const searched_movie_info = document.querySelector('.searched-movie-info');
 const searched_movie_poster = document.querySelector('.searched-movie-poster .movie-poster');
 const searched_movie_title = document.querySelector('.searched-movie-title');
@@ -30,13 +31,20 @@ fetch("./movies.json")
     let vectorized_matrix = vectorization(movies, most_frequent_words);
     let similarity_matrix = build_similarity_matrix(vectorized_matrix);
 
+    search_input.addEventListener("keyup",(e) => {
+        if(e.code !== "Enter")
+            update_suggestions(search_input, search_suggestions);
+        else 
+            remove_suggestions_container();
+    });
     search_btn.addEventListener('click', () => {
         change_movie(data, movies, search_input.value, similarity_matrix);
     });
     window.addEventListener('keydown', (e) => {
-        if(!e.repeat && e.code === "Enter") 
+        if(!e.repeat && e.code === "Enter") {
             change_movie(data, movies, search_input.value, similarity_matrix);
-    })
+        }
+    });
 
 });
 
@@ -46,6 +54,7 @@ function change_movie(data, movies, movie_name, similarity_matrix) {
     remove_recommendation_container();
 
     if(movie_index === -1) return;
+    remove_suggestions_container();
     
     const searched_movie = movies[movie_index];
     
