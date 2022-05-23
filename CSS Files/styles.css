@@ -120,6 +120,7 @@ body {
     width: 100%;
     /* padding: 1em; */
     border-radius: 0 0 5px 5px;
+    z-index: 100;
     /* border: 1px solid black; */
     /* border-top: none; */
 }
@@ -129,6 +130,9 @@ body {
 }
 .list-item:hover {
     background-color: #dddddd;
+}
+.list-item:last-child:hover {
+    border-radius: 0 0 5px 5px;
 }
 .list-item b {
     color: rgb(31, 31, 110)
