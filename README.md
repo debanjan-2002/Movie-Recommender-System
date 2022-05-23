@@ -19,7 +19,7 @@
 **Dataset:** Custom made JSON file (Fetched through JavaScript)
 
 
-## Installation
+## Running the project
 
 To run this project
 
