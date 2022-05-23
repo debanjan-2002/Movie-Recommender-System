@@ -11,3 +11,15 @@
 - Users will get *suggestions* while searching for the movies through the search bar **(suggestions on search)**.  
 - Clean, minimalistic and **responsive** UI for seamless user experience. 
 
+
+## Tech Stack
+
+**Client:** HTML, CSS, JavaScript
+
+**Dataset:** Custom made JSON file (Fetched through JavaScript)
+
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_1.PNG?token=GHSAT0AAAAAABUJ72CVFIRWYJKRSYBUJRGWYULG6AA)
+
