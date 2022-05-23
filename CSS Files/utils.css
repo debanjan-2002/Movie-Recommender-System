@@ -1,6 +1,4 @@
-.flex {
-    display: flex;
-}
+.flex { display: flex; }
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -9,21 +7,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-.justify-center {
-    justify-content: center;
-}
-.justify-start {
-    justify-content: flex-start;
-}
-.align-center {
-    align-items: center;
-}
-.text-center {
-    text-align: center;
-}
-.poster-shadow {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-.display-none {
-    display: none;
-}
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.align-center { align-items: center; }
+.text-center { text-align: center; }
+.poster-shadow { box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; }
+.bg-white { background-color: white; }
+.bor-white-5 { border: 5px solid white; }
+.bor-white-2 { border: 2px solid white; }
+.display-none { display: none; }
