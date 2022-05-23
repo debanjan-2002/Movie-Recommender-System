@@ -40,11 +40,11 @@ To run this project
 ![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_2.PNG?token=GHSAT0AAAAAABUJ72CUO2KGXMQKSXVG4OOAYULHPYA)
 
 
+## Doubts
+
+For any doubts, email debanjan.edu.2002@gmail.com or connect with me through LinkedIn.
+
+
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-poddar/)
-
-
-## Support
-
-For support, email debanjan.edu.2002@gmail.com or connect with me through LinkedIn.
 
