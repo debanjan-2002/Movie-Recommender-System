@@ -25,7 +25,7 @@ To run this project
 
 ```bash
   - Fork this repository
-  - Clone it in local environment
+  - Clone the project
   - Run the index.html file through suitable browser (or through VS code Live Server)
 ```
     
