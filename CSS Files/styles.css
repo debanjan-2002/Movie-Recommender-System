@@ -27,32 +27,16 @@ body {
     min-height: 50%;
     opacity: 0.5;
 }
-::-webkit-scrollbar {
-    /* width: 3vw; */
-    max-width: 3vw;
-}
-::-webkit-scrollbar-track {
-    background-color: #333;
-    /* border-radius: 100vw; */
-    /* margin-block: 0.5em; */
-}
-::-webkit-scrollbar-thumb {
-    background: rgb(255, 97, 97);
-    /* border-radius: 100vw; */
-}
+
+::-webkit-scrollbar { max-width: 3vw; }
+::-webkit-scrollbar-track { background-color: #333; }
+::-webkit-scrollbar-thumb { background: rgb(255, 97, 97); }
 
 #header {
-    /* border: 2px solid black; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: flex-start; */
-    /* gap: 1em; */
     padding: 1em;
     background-color: rgb(41, 40, 40);
 }
 #website-logo {
-    /* border: 2px solid black; */
-    /* display: flex; */
     border-radius: 50%;
 }
 #website-logo img {
@@ -61,45 +45,32 @@ body {
     border-radius: 50%;
 }
 #website-name {
-    /* border: 2px solid black; */
     font-size: 2rem;
     flex-grow: 1;
-    /* text-align: center; */
     font-weight: 800;
-    /* background-color: white; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 #website-name-title {
     width: max-content;
     padding: 0 0.5em;
     border-radius: .3em;
-    background-color: rgb(255, 255, 255);
     margin-right: 1em;
-    /* border: 2px solid black; */
 }
 #search-area {
     background-color: #333;
-    /* display: flex; */
-    gap: 2em;
-    /* justify-content: center; */
+    gap: 1em;
     max-width: 90%;
     margin: 0 auto;
     margin-top: 1em;
     padding: 0.8em 1em;
     border-radius: 5px;
-    border: 2px solid white;
 }
 .search-container {
-    /* border: 2px solid white; */
     position: relative;
     width: 100%;
     max-width: 800px;
 }
 .search-container .search-text {
-    /* height: 3em; */
     width: 100%;
-    /* max-width: 800px; */
     font-size: 20px;
     padding-left: 0.5em;
     font-weight: 600;
@@ -107,22 +78,17 @@ body {
     border: none;
     border-bottom:1px solid rgb(87, 84, 84);
     border-radius: 5px 5px 0 0;
-    /* border: 2px solid black; */
 }
 
 .search-container .search-text:focus {
     outline: none;
 }
 .search-container .search-suggestions {
-    background-color: white;
     position: absolute;
     list-style: none;
     width: 100%;
-    /* padding: 1em; */
     border-radius: 0 0 5px 5px;
     z-index: 100;
-    /* border: 1px solid black; */
-    /* border-top: none; */
 }
 .list-item {
     padding: 10px 5px;
@@ -154,46 +120,27 @@ body {
     color: black;
 }
 .searched-movie {
-    /* border: 2px solid black; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
     margin-top: 2em;
     gap: 1em;
 }
 .searched-movie-poster {
-    /* border: 2px solid black; */
     max-width: 300px;
-    /* border-radius: 5px; */
-    /* margin-top: 2em; */
 }
 .searched-movie-poster img {
     width: 100%;
-    border: 5px solid white;
-    /* box-shadow:
-    1.9px 2px 1.4px rgba(0, 0, 0, 0.102),
-    4.5px 4.6px 3.3px rgba(0, 0, 0, 0.124),
-    8.1px 8.3px 5.9px rgba(0, 0, 0, 0.133),
-    13.5px 13.8px 9.8px rgba(0, 0, 0, 0.138),
-    22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
-    38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
-    84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .ratings {
-    border: 5px solid white;
+    /* border: 5px solid white; */
     border-top: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    max-width: 300px;
+    width: 100%;
     background-color: #333;
     margin-top: -10px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     gap: 2em;
-    padding: 0.5em;
+    padding: 0.8em 0;
 }
 .ratings img{
     width: 100px;
@@ -209,21 +156,14 @@ body {
 .dislike-button:hover {background-color:red}
 
 .searched-movie-info {
-    border: 2px solid white;
     border-radius: 7px;
     width: 70%;
-    /* background-color: #333; */
-    /* opacity: 0.9; */
     color: white;
     padding: 0.7em;
     min-width: 300px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
     gap: 1.5em;
     position: relative;
     backdrop-filter: blur(2px);
-    /* -webkit-backdrop-filter: blur(2px); */
 }
 .searched-movie-info::after {
     content: '';
@@ -236,8 +176,6 @@ body {
 }
 .searched-movie-title {
     font-size: 2rem;
-    /* text-align: center; */
-    background-color: white;
     color:black;
     font-weight: 700;
     line-height: 1.2em;
@@ -246,13 +184,8 @@ body {
     padding: 0 10px;
 }
 .searched-movie-genres {
-    /* border: 2px solid white; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     gap: 1em;
     font-size: 1.2rem;
-    /* font-weight: 600; */
 }
 .searched-movie-genres span {
     background-color: white;
@@ -264,47 +197,26 @@ body {
 .searched-movie-overview {
     border-top: 2px solid white;
     font-size: 1.5rem;
-    /* text-align: center; */
 }
 .recommendations-header {
-    /* border: 2px solid black; */
-    /* display: flex; */
-    /* justify-content: center; */
     margin-top: 2em;
 }
 h2 {
-    /* text-align: center; */
     color: white;
     background-color: #333;
     width: 70%;
     padding: 0.5em 0;
-    border: 2px solid white;
     border-radius: 7px;
 }
 .recommendations {
-    /* border: 2px solid black; */
     margin-top: 2em;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
     gap: 1.5em;
 }
 .recommendations div img {
-    /* max-width: 300px; */
-    /* width: 100%; */
     width: 270px;
     height: 390px;
     border: 5px solid white;
     transition: all 200ms;
-    /* box-shadow:
-    1.9px 2px 1.4px rgba(0, 0, 0, 0.102),
-    4.5px 4.6px 3.3px rgba(0, 0, 0, 0.124),
-    8.1px 8.3px 5.9px rgba(0, 0, 0, 0.133),
-    13.5px 13.8px 9.8px rgba(0, 0, 0, 0.138),
-    22.2px 22.8px 16.1px rgba(0, 0, 0, 0.14),
-    38.8px 39.8px 28.2px rgba(0, 0, 0, 0.147),
-    84px 86px 61px rgba(0, 0, 0, 0.18); */
     border-radius: 5px;
 }
 .recommendations div img:hover {
@@ -318,10 +230,10 @@ h2 {
     width: 100%;
     background-color: rgb(41, 40, 40);
     color: white;
-    /* text-align: center; */
     font-size: 1.2rem;
     padding: 0.4em 0;
     font-weight: 700;
+    z-index: 200;
 }
 #footer span {
     color: red;
