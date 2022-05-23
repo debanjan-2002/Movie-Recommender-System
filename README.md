@@ -34,11 +34,11 @@ To run this project
 
 ![alt text](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_3.PNG?raw=true)
 
-![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_1.PNG?raw=true)
+![alt text](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_1.PNG?raw=true)
 
-![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_4.PNG?raw=true)
+![alt text](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_4.PNG?raw=true)
 
-![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_2.PNG?raw=true)
+![alt text](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_2.PNG?raw=true)
 
 
 ## Doubts
