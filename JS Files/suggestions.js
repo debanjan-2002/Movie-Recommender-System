@@ -57,7 +57,7 @@ let movie_names = [
     "Coco",
     "The Aristocats",
     "Frozen",
-    "Toy Story 3",,
+    "Toy Story 3",
     "How to Train Your Dragon 2",
     "Shrek",
     "Toy Story",
@@ -92,8 +92,9 @@ function update_suggestions(search_input, search_suggestions) {
     remove_suggestions_container();
     for(let movie of sorted_names) {
         const clean_movie_name = search_input.value.toLowerCase().trim();
-        
-        if(movie.toLowerCase().startsWith(clean_movie_name) && clean_movie_name !== "") {
+        const clean_movie = movie.toLowerCase();
+
+        if(clean_movie_name !== "" && clean_movie.startsWith(clean_movie_name)) {
             const list_item = document.createElement('li');
             list_item.classList.add('list-item');
             list_item.style.cursor = "pointer";
