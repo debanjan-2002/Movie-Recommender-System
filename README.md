@@ -32,13 +32,13 @@ To run this project
     
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_3.PNG?token=GHSAT0AAAAAABUJ72CV6ASTORTL7UD6CR6UYULJ7WQ)
+![alt text](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_3.PNG?raw=true)
 
-![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_1.PNG?token=GHSAT0AAAAAABUJ72CUZ6FWOUUHWSNZ7BXOYULKAIQ)
+![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_1.PNG?raw=true)
 
-![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_4.PNG?token=GHSAT0AAAAAABUJ72CV2BLRZHEZV2P55GVOYULKAXA)
+![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_4.PNG?raw=true)
 
-![App Screenshot](https://raw.githubusercontent.com/debanjan-2002/Movie-Recommender-System/main/Images/Screenshots/Image_2.PNG?token=GHSAT0AAAAAABUJ72CUZITJXYTZKPGUTDCWYULKBDQ)
+![App Screenshot](https://github.com/debanjan-2002/Movie-Recommender-System/blob/main/Images/Screenshots/Image_2.PNG?raw=true)
 
 
 ## Doubts
