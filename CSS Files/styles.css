@@ -72,6 +72,7 @@ body {
 .search-container .search-text {
     width: 100%;
     font-size: 20px;
+    padding: 0.2em;
     padding-left: 0.5em;
     font-weight: 600;
     outline: none;
@@ -118,6 +119,17 @@ body {
 #search-area .search-button:hover {
     background-color: white;
     color: black;
+}
+.not-found {
+    background-color: red;
+    color: white;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0.3em 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
 }
 .searched-movie {
     margin-top: 2em;
@@ -237,4 +249,16 @@ h2 {
 }
 #footer span {
     color: red;
+}
+
+/* Media Queries */
+
+@media (max-width: 460px) {
+    #search-area {
+        flex-direction: column;
+    }
+    #search-area .search-button {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
 }
