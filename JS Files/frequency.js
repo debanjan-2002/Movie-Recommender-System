@@ -1,4 +1,16 @@
-// Counting frequency of all words from all the combined tags of all movies
+/*
+Counting frequency 
+
+- In this function, we are calculating the frequency of each word from the tags.
+
+- We are considering every movie while computing the frequency of the words from the tags.
+
+- We have taken a Map() named freq_counter (declared in app.js) to store the frequency.
+    - The first element of a pair of freq_counter contains a word.
+    - The second element of a pair of freq_counter contains the frequency of the corresponding word.
+
+- The function frequencyCounter(movies, freq_counter) populaes the freq_counter.
+*/
 
 function frequencyCounter(movies, freq_counter) {
     for(let movie of movies) {
@@ -16,7 +28,26 @@ function frequencyCounter(movies, freq_counter) {
     }
 }
 
-// Finding top K frequent words from the calculated frequency of all words
+/* 
+Finding top K frequent words
+
+- Here we use the previously computed freq_counter Map to find the Top K most frequent words.
+
+- There can be many ways to find the Top K most frequent words. Some of them can be - 
+    - Using a Max Heap (Maximum Priority Queue)
+    - Using Sorting
+
+- Though the Priority Queue approach works better than the sorting approach, still we have used
+  sorting approach here to make the process simpler and easy to understand.
+
+- We are storing the [word, frequency] pair into a 2D array matrix[] and then sorting the matrix
+  in descending order in terms of the frequency of the words. 
+
+- Then we are running a loop of length K and extract the top K frequent words from the matrix.
+
+- The function topKFrequentWords(freq_counter, K) returns an array which contains the top K 
+  frequent words. 
+*/
 
 function topKFrequentWords(freq_counter, K) {
     const no_of_words = freq_counter.size;
