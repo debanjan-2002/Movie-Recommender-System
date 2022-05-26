@@ -8,6 +8,8 @@ Building the vectorized matrix using the top K frequent words.
 - vectorized_matrix[i] represents the frequency of all the top K frequent words, that are present
   in the tags of the 'i'th movie. This process is done for all the movies.
 
+- The function vectorization(movies, most_frequent_words) returns the required vectorized matrix.
+
 - Through this process we get the frequency of all the top K frequent words in every movie. 
   This will later be used to calculate the similarity between any two movies.
 
