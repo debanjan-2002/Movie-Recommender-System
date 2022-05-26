@@ -1,5 +1,3 @@
-// Fetching the JSON Data and calling all the functions to prepare recommendations
-
 // <------------------------ Selecting Elements from HTML ----------------------------------->
 const search_btn = document.querySelector('.search-button');
 const search_input = document.querySelector('.search-text');
@@ -17,6 +15,8 @@ const recommendation_header = document.querySelector('.recommendations-header');
 const root_element = document.documentElement;
 const stock_img_URL = "Images/stock poster.jpg";
 // <------------------------ End of Selecting Elements from HTML ---------------------------->
+
+// Fetching the JSON Data and calling all the functions to prepare recommendations
 
 fetch("./movies.json")
 .then((res) => res.json())

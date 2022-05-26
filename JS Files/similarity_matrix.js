@@ -1,5 +1,20 @@
-// This function gives the Cosine similarity between any two input movies
-// The given inputs are the vectorized array for the corresponding movies
+/*
+Calculating cosine similarity between two movies using the vectorized array of respective movies
+
+- Cosine similarity is a metric, helpful in determining, how similar the data objects are
+  irrespective of their size.
+
+- Cos(x, y) = (x . y) / ||x|| * ||y||
+    where
+        x . y = product (dot) of the vectors ‘x’ and ‘y’.
+        ||x|| and ||y|| = length of the two vectors ‘x’ and ‘y’.
+        ||x|| * ||y|| = cross product of the two vectors ‘x’ and ‘y’.
+
+    Source of definition: geeksforgeeks.org
+
+- The function getCosineSimilarity(movie_A, movie_B) returns the similarity_score between movie_A
+  and movie_B.
+*/ 
 
 function getCosineSimilarity(movie_A, movie_B) {
     let dot_product = 0;
@@ -13,11 +28,25 @@ function getCosineSimilarity(movie_A, movie_B) {
     m_A = Math.sqrt(m_A);
     m_B = Math.sqrt(m_B);
 
-    const similarity = (dot_product) / ((m_A) * (m_B));
-    return similarity;
+    const similarity_score = (dot_product) / ((m_A) * (m_B));
+    return similarity_score;
 }
 
-// Building Similarity Matrix using Cosine similarity between movies
+/*
+Building Similarity Matrix
+
+- The similarity_matrix is a 2D array of size [no of movies][no of movies]
+
+- similarity_matrix[i] represents an array which contains the similarity score between the
+  'i'th movie and all the other movies.  
+
+- It uses the vectorized_matrix to calculate the similarity between any two movie.
+
+- The similarity score is computed using the concept of cosine similarity.
+
+- The function buildSimilarityMatrix(movies) takes the vectorized_matrix as a parameter and 
+  builds the similarity matrix and returns it.
+*/ 
  
 function buildSimilarityMatrix(movies) {
     const no_of_movies = movies.length;
