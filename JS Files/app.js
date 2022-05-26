@@ -1,6 +1,7 @@
 // <------------------------ Selecting Elements from HTML ----------------------------------->
 const search_btn = document.querySelector('.search-button');
 const search_input = document.querySelector('.search-text');
+const movie_not_found_message = document.querySelector('.not-found');
 const search_suggestions = document.querySelector('.search-suggestions');
 const searched_movie_info = document.querySelector('.searched-movie-info');
 const searched_movie_poster = document.querySelector('.searched-movie-poster .movie-poster');
@@ -50,14 +51,18 @@ fetch("./movies.json")
 
 function changeMovie(data, movies, movie_name, similarity_matrix) {
     const movie_index = isMoviePresent(movie_name, movies);
-    rating_container.classList.add('display-none');
+    removeRatingContainer();
     removeRecommendationContainer();
     removeSuggestionsContainer();
     
-    if(movie_index === -1) return;
-    
+    if(movie_index === -1) {
+        if(movie_name.length) addNotFoundMessage();
+        else removeNotFoundMessage();
+        return;
+    }
     const searched_movie = movies[movie_index];
     
+    removeNotFoundMessage();
     addSearchedMovieContainer();
 
     searched_movie_poster.src = searched_movie.image;
@@ -78,6 +83,18 @@ function changeMovie(data, movies, movie_name, similarity_matrix) {
         changeMovieOnRecommendationClick(data, movies, similarity_matrix);
     })
     
+}
+
+function addNotFoundMessage() {
+    movie_not_found_message.classList.remove('display-none');
+}
+
+function removeNotFoundMessage() {
+    movie_not_found_message.classList.add('display-none');
+}
+
+function removeRatingContainer() {
+    rating_container.classList.add('display-none');
 }
 
 function addSearchedMovieContainer() {
