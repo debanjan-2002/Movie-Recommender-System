@@ -1,6 +1,6 @@
 // Recommender Function
 
-function is_movie_present(movie_name, movies) {
+function isMoviePresent(movie_name, movies) {
     const clean_movie_name = movie_name.trim().toLowerCase();
 
     if(clean_movie_name.length === 0) return -1;

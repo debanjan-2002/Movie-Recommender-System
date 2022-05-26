@@ -1,6 +1,6 @@
 // Counting frequency of all words from all the combined tags of all movies
 
-function frequency_counter(movies, freq_counter) {
+function frequencyCounter(movies, freq_counter) {
     for(let movie of movies) {
         const curr_tags = movie.tags;
         const curr_tags_arr = curr_tags.split(' ');
@@ -18,7 +18,7 @@ function frequency_counter(movies, freq_counter) {
 
 // Finding top K frequent words from the calculated frequency of all words
 
-function top_K_frequent_words(freq_counter, K) {
+function topKFrequentWords(freq_counter, K) {
     const no_of_words = freq_counter.size;
     let matrix = [];
     let res = [];

@@ -88,8 +88,8 @@ let movie_names = [
 
 let sorted_names = movie_names.sort();
 
-function update_suggestions(search_input, search_suggestions) {
-    remove_suggestions_container();
+function updateSuggestions(search_input, search_suggestions) {
+    removeSuggestionsContainer();
     for(let movie of sorted_names) {
         const clean_movie_name = search_input.value.toLowerCase().trim();
         const clean_movie = movie.toLowerCase();
@@ -111,8 +111,8 @@ function update_suggestions(search_input, search_suggestions) {
 }
 function displayNames(value) {
     search_input.value = value;
-    remove_suggestions_container();
+    removeSuggestionsContainer();
 }
-function remove_suggestions_container() {
+function removeSuggestionsContainer() {
     search_suggestions.innerHTML = '';
 }
