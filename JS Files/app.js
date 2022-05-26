@@ -52,9 +52,9 @@ function changeMovie(data, movies, movie_name, similarity_matrix) {
     const movie_index = isMoviePresent(movie_name, movies);
     rating_container.classList.add('display-none');
     removeRecommendationContainer();
-
-    if(movie_index === -1) return;
     removeSuggestionsContainer();
+    
+    if(movie_index === -1) return;
     
     const searched_movie = movies[movie_index];
     
