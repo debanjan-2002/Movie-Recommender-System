@@ -48,6 +48,9 @@ fetch("./movies.json")
             changeMovie(data, movies, search_input.value, similarity_matrix);
         }
     });
+    window.addEventListener('click', () => {
+        removeSuggestionsContainer();
+    })
 
 });
 
