@@ -198,17 +198,39 @@ body {
     gap: 1em;
     font-size: 1.2rem;
 }
-.searched-movie-genres span {
+.searched-movie-genres span, .cast-names span, .director-names span{
     background-color: white;
     color: black;
     padding: 0.5em;
     border-radius: 5px;
     font-weight: 600;
+    text-align: center;
+}
+.cast-names span, .director-names span{
+    min-width: 250px;
+}
+.cast-title, .director-title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.cast-names, .director-names {
+    gap: 1em;
 }
 .searched-movie-overview {
     border-top: 2px solid white;
+    border-bottom: 2px solid white;
     font-size: 1.5rem;
+    padding: 0.5em 0.1em;
 }
+.searched-movie-cast-container, .searched-movie-director-container {
+    font-size: 1.2rem;
+    margin-top: -20px;
+    /* border: 2px solid blue; */
+    /* padding: 0.5em 0; */
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 1em;
+}
+
 .recommendations-header {
     margin-top: 2em;
 }
