@@ -53,3 +53,11 @@ For any doubts, email debanjan.edu.2002@gmail.com or connect with me through Lin
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-poddar/)
 
+
+## Lessons Learned
+
+* Learned the basic concepts of machine learning
+    * Came to know about concepts like vectorization, bag of words, similarity matrix, content/collaborative filtering etc.
+    * Implemented all the functions required from scratch in JavaScript, without using any inbuilt library.
+* Became more comfortable with making frontend designs in pure HTML & CSS
+* Significantly improved logic building around the frontend design
