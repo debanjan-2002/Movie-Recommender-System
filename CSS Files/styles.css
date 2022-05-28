@@ -47,12 +47,10 @@ body {
 #website-name {
     font-size: 2rem;
     flex-grow: 1;
-    font-weight: 800;
 }
 #website-name-title {
     width: max-content;
     padding: 0 0.5em;
-    border-radius: .3em;
     margin-right: 1em;
 }
 #search-area {
@@ -62,7 +60,6 @@ body {
     margin: 0 auto;
     margin-top: 1em;
     padding: 0.8em 1em;
-    border-radius: 5px;
 }
 .search-container {
     position: relative;
@@ -74,11 +71,9 @@ body {
     font-size: 20px;
     padding: 0.2em;
     padding-left: 0.5em;
-    font-weight: 600;
     outline: none;
     border: none;
     border-bottom:1px solid rgb(87, 84, 84);
-    border-radius: 5px 5px 0 0;
 }
 
 .search-container .search-text:focus {
@@ -88,18 +83,18 @@ body {
     position: absolute;
     list-style: none;
     width: 100%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 7px 7px;
     z-index: 100;
 }
 .list-item {
-    padding: 10px 5px;
+    padding: 10px 0.5em;
     font-size: 18px;
 }
 .list-item:hover {
     background-color: #dddddd;
 }
 .list-item:last-child:hover {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 7px 7px;
 }
 .list-item b {
     color: rgb(31, 31, 110)
@@ -108,9 +103,6 @@ body {
     padding: 0 0.9em;
     font-size: 17px;
     cursor: pointer;
-    border-radius: 5px;
-    font-weight: 600;
-    background: none;
     background-color: #333;
     color: rgb(255, 111, 111);
     border: 3px solid red;
@@ -128,8 +120,6 @@ body {
     margin-top: 10px;
     padding: 0.3em 1em;
     font-size: 1.2em;
-    font-weight: 700;
-    border-radius: 5px;
 }
 .searched-movie {
     margin-top: 2em;
@@ -167,7 +157,6 @@ body {
 .dislike-button:hover {background-color:red}
 
 .searched-movie-info {
-    border-radius: 7px;
     width: 70%;
     color: white;
     padding: 0.7em;
@@ -188,11 +177,9 @@ body {
 .searched-movie-title {
     font-size: 2rem;
     color:black;
-    font-weight: 700;
     line-height: 1.2em;
-    border-radius: 5px;
     width: fit-content;
-    padding: 0 10px;
+    padding: 2px 10px;
 }
 .searched-movie-genres {
     gap: 1em;
@@ -211,7 +198,6 @@ body {
 }
 .cast-title, .director-title {
     font-size: 1.5em;
-    font-weight: 700;
 }
 .cast-names, .director-names {
     gap: 1em;
@@ -225,9 +211,6 @@ body {
 .searched-movie-cast-container, .searched-movie-director-container {
     font-size: 1.2rem;
     margin-top: -20px;
-    /* border: 2px solid blue; */
-    /* padding: 0.5em 0; */
-    /* border-bottom: 2px solid white; */
     padding-bottom: 1em;
 }
 
@@ -239,7 +222,6 @@ h2 {
     background-color: #333;
     width: 70%;
     padding: 0.5em 0;
-    border-radius: 7px;
 }
 .recommendations {
     margin-top: 2em;
@@ -250,7 +232,7 @@ h2 {
     height: 390px;
     border: 5px solid white;
     transition: all 200ms;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .recommendations div img:hover {
     cursor: pointer;
@@ -265,7 +247,6 @@ h2 {
     color: white;
     font-size: 1.2rem;
     padding: 0.4em 0;
-    font-weight: 700;
     z-index: 200;
 }
 #footer span {
