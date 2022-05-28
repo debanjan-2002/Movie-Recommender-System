@@ -848,5 +848,155 @@
         "Overview" : "The story of Michael Oher, a homeless and traumatized boy who became an All-American football player and first-round NFL draft pick with the help of a caring woman and her family.",
         "image" : "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_.jpg",
         "year" : 2009
+    },
+    {
+        "id" : 86,
+        "title" : "Operation Mincemeat",
+        "genres" : ["Drama", "War"],
+        "cast" : ["ColinFirth","MatthewMacfadyen","KellyMacdonald","RufusWright"],
+        "Directors" : ["JohnMadden"],
+        "Overview" : "During World War II, two intelligence officers use a corpse and false papers to outwit German troops.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOGZlNjZhNjgtMjQzZC00MDI0LWFmNGQtNmNiYTIyYTE3ODhkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+        "year" : 2021
+    },
+    {
+        "id" : 87,
+        "title" : "Inglourious Basterds",
+        "genres" : ["Drama", "War","Adventure"],
+        "cast" : ["BradPitt","DianeKruger","EliRoth","MelanieLaurent"],
+        "Directors" : ["QuentinTarantino"],
+        "Overview" : "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+        "year" : 2009
+    },
+    {
+        "id" : 88,
+        "title" : "Saving Private Ryan",
+        "genres" : ["Drama", "War"],
+        "cast" : ["TomHanks","MattDamon","TomSizemore","EdwardBurns"],
+        "Directors" : ["StevenSpielberg"],
+        "Overview" : "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+        "year" : 1998
+    },
+    {
+        "id" : 89,
+        "title" : "Apocalypse Now",
+        "genres" : ["Drama", "War","Mystery"],
+        "cast" : ["MartinSheen","MarlonBrando","RobertDuvall","FredericForrest"],
+        "Directors" : ["FrancisFordCoppola"],
+        "Overview" : "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "year" : 1979
+    },
+    {
+        "id" : 90,
+        "title" : "1917",
+        "genres" : ["Drama", "War","Action"],
+        "cast" : ["GeorgeMacKay","DanielMays","ColinFirth","DeanCharlesChapman"],
+        "Directors" : ["SamMendes"],
+        "Overview" : "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg",
+        "year" : 2019
+    },
+    {
+        "id" : 91,
+        "title" : "Hacksaw Ridge",
+        "genres" : ["Drama","History","Biography"],
+        "cast" : ["AndrewGarfield","SamWorthington","LukeBracey","TeresaPalmer"],
+        "Directors" : ["MelGibson"],
+        "Overview" : "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg",
+        "year" : 2016
+    },
+    {
+        "id" : 92,
+        "title" : "The Imitation Game",
+        "genres" : ["Drama","Biography","Thriller"],
+        "cast" : ["BenedictCumberbatch","KeiraKnightley","MatthewGoode","AllenLeech"],
+        "Directors" : ["MortenTyldum"],
+        "Overview" : "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BOTgwMzFiMWYtZDhlNS00ODNkLWJiODAtZDVhNzgyNzJhYjQ4L2ltYWdlXkEyXkFqcGdeQXVyNzEzOTYxNTQ@._V1_.jpg",
+        "year" : 2014
+    },
+    {
+        "id" : 93,
+        "title" : "Fury",
+        "genres" : ["Drama","War","Action"],
+        "cast" : ["BradPitt","ShiaLaBeouf","LoganLerman","MichaelPena"],
+        "Directors" : ["DavidAyer"],
+        "Overview" : "A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_.jpg",
+        "year" : 2014
+    },
+    {
+        "id" : 94,
+        "title" : "Wonder Woman",
+        "genres" : ["Action","Adventure","Fantasy"],
+        "cast" : ["GalGadot","ChrisPine","RobinWright","LucyDavis"],
+        "Directors" : ["PattyJenkins"],
+        "Overview" : "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "year" : 2017
+    },
+    {
+        "id" : 95,
+        "title" : "Incendies",
+        "genres" : ["Drama","Mystery","War"],
+        "cast" : ["LubnaAzabal","MaximGaudette","MustafaKamel"],
+        "Directors" : ["DenisVilleneuve"],
+        "Overview" : "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "year" : 2010
+    },
+    {
+        "id" : 96,
+        "title" : "Whiplash",
+        "genres" : ["Drama","Music"],
+        "cast" : ["MilesTeller","JKSimmons","MelissaBenoist","PaulReiser"],
+        "Directors" : ["DamienChazelle"],
+        "Overview" : "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        "image" : "https://i.pinimg.com/originals/59/00/82/590082729aeb1586c54b3efd1bf24e7e.jpg",
+        "year" : 2014
+    },
+    {
+        "id" : 97,
+        "title" : "La La Land",
+        "genres" : ["Drama","Drama","Music"],
+        "cast" : ["RyanGosling","EmmaStone","RosemarieDeWitt","JKSimmons"],
+        "Directors" : ["DamienChazelle"],
+        "Overview" : "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+        "image" : "https://www.goldenglobes.com/sites/default/files/articles/cover_images/2017-la_la_land.jpg?format=pjpg&auto=webp&optimize=high&width=850",
+        "year" : 2016
+    },
+    {
+        "id" : 98,
+        "title" : "Pitch Perfect",
+        "genres" : ["Comedy","Music","Romance"],
+        "cast" : ["AnnaKendrick","BrittanySnow","RebelWilson","AnnaCamp"],
+        "Directors" : ["JasonMoore"],
+        "Overview" : "Beca, a freshman at Barden University, is cajoled into joining The Bellas, her school's all-girls singing group. Injecting some much needed energy into their repertoire, The Bellas take on their male rivals in a campus competition.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BMTcyMTMzNzE5N15BMl5BanBnXkFtZTcwNzg5NjM5Nw@@._V1_.jpg",
+        "year" : 2012
+    },
+    {
+        "id" : 99,
+        "title" : "Pitch Perfect 2",
+        "genres" : ["Comedy","Music","Romance"],
+        "cast" : ["AnnaKendrick","BrittanySnow","RebelWilson","HaileeSteinfeld"],
+        "Directors" : ["ElizabethBanks"],
+        "Overview" : "After a humiliating command performance at The Kennedy Center, the Barden Bellas enter an international competition that no American group has ever won in order to regain their status and right to perform.",
+        "image" : "https://mossislandsounds.files.wordpress.com/2015/05/pitch-perfect-2-poster.jpg",
+        "year" : 2015
+    },
+    {
+        "id" : 100,
+        "title" : "Soul",
+        "genres" : ["Comedy","Animation","Adventure"],
+        "cast" : ["JamieFoxx","TinaFey","GrahamNorton","RachelHouse"],
+        "Directors" : ["PeteDocter","KempPowers"],
+        "Overview" : "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+        "image" : "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_.jpg",
+        "year" : 2020
     }
 ]
