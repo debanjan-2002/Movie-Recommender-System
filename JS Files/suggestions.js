@@ -83,7 +83,22 @@ let movie_names = [
     "The Wrestler",
     "He Got Game",
     "Invincible",
-    "The Blind Side"
+    "The Blind Side",
+    "Operation Mincemeat",
+    "Inglourious Basterds",
+    "Saving Private Ryan",
+    "Apocalypse Now",
+    "1917",
+    "Hacksaw Ridge",
+    "The Imitation Game",
+    "Fury",
+    "Wonder Woman",
+    "Incendies",
+    "Whiplash",
+    "La La Land",
+    "Pitch Perfect",
+    "Pitch Perfect 2",
+    "Soul"
 ];
 
 let sorted_names = movie_names.sort();
