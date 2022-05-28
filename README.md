@@ -61,3 +61,9 @@ For any doubts, email debanjan.edu.2002@gmail.com or connect with me through Lin
     * Implemented all the functions required from scratch in JavaScript, without using any inbuilt library.
 * Became more comfortable with making frontend designs in pure HTML & CSS
 * Significantly improved logic building around the frontend design
+
+## Optimizations (for the future)
+
+* Genre based movie searching
+* Cast based movie searching
+* And similar features....
