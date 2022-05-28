@@ -43,6 +43,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    cursor: pointer;
 }
 #website-name {
     font-size: 2rem;
