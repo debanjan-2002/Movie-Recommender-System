@@ -793,7 +793,7 @@
         "id" : 80,
         "title" : "Hoosiers",
         "genres" : ["Sport","Drama"],
-        "cast" : ["Gene Hackman", "Barbara Hershey","Dennis Hopper","Sheb Wooley"],
+        "cast" : ["Gene Hackman","Barbara Hershey","Dennis Hopper","Sheb Wooley"],
         "Directors" : ["David Anspaugh"],
         "Overview" : "A coach with a checkered past and a local drunk train a small town high school basketball team to become a top contender for the championship.",
         "image" : "https://images.jdmagicbox.com/comp/jd_social/news/2018jul20/image-112975-htnqnjtj6h.jpg",
@@ -964,7 +964,7 @@
         "title" : "La La Land",
         "genres" : ["Comedy","Drama","Music","Romance"],
         "cast" : ["Ryan Gosling","Emma Stone","Rosemarie DeWitt","J.K. Simmons"],
-        "Directors" : ["DamienChazelle"],
+        "Directors" : ["Damien Chazelle"],
         "Overview" : "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
         "image" : "https://www.goldenglobes.com/sites/default/files/articles/cover_images/2017-la_la_land.jpg?format=pjpg&auto=webp&optimize=high&width=850",
         "year" : 2016
