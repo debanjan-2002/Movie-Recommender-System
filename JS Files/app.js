@@ -8,6 +8,8 @@ const searched_movie_poster = document.querySelector('.searched-movie-poster .mo
 const searched_movie_title = document.querySelector('.searched-movie-title');
 const searched_movie_overview = document.querySelector('.searched-movie-overview');
 const searched_movie_genres = document.querySelector('.searched-movie-genres');
+const searched_movie_casts = document.querySelector('.cast-names');
+const searched_movie_directors = document.querySelector('.director-names');
 const recommendations_container = document.querySelector('.recommendations');
 const rating_container = document.querySelector('.ratings')
 const like_btn = document.querySelector('.like-button');
@@ -28,7 +30,7 @@ fetch("./movies.json")
     let freq_counter = new Map();
     frequencyCounter(movies, freq_counter);
 
-    let most_frequent_words = topKFrequentWords(freq_counter, 100);
+    let most_frequent_words = topKFrequentWords(freq_counter, 5000);
     let vectorized_matrix = vectorization(movies, most_frequent_words);
     let similarity_matrix = buildSimilarityMatrix(vectorized_matrix);
 
@@ -69,6 +71,8 @@ function changeMovie(data, movies, movie_name, similarity_matrix) {
     searched_movie_title.innerText = `${searched_movie.title} (${data[searched_movie.id - 1].year})`;
     searched_movie_overview.innerText = data[searched_movie.id - 1].Overview;
     updateGenres(data, searched_movie);
+    updateCasts(data, searched_movie);
+    updateDirectors(data, searched_movie);
 
     like_btn.addEventListener('click', () => {
         let recommendations = recommend(movie_index, movies, similarity_matrix, 1);
@@ -110,6 +114,28 @@ function updateGenres(data, searched_movie) {
         const new_genre = document.createElement('span');
         new_genre.innerText = genre;
         searched_movie_genres.append(new_genre);
+    }
+}
+
+function updateCasts(data, searched_movie) {
+    const movie_casts_arr = data[searched_movie.id - 1].cast;
+    searched_movie_casts.innerHTML = '';
+
+    for(let cast of movie_casts_arr) {
+        const new_cast = document.createElement('span');
+        new_cast.innerText = cast;
+        searched_movie_casts.append(new_cast);
+    }
+}
+
+function updateDirectors(data, searched_movie) {
+    const movie_directors_arr = data[searched_movie.id - 1].Directors;
+    searched_movie_directors.innerHTML = '';
+
+    for(let director of movie_directors_arr) {
+        const new_director = document.createElement('span');
+        new_director.innerText = director;
+        searched_movie_directors.append(new_director);
     }
 }
 
