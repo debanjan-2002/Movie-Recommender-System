@@ -7,7 +7,7 @@
 ## Features
 
 - User can get movie recommendations, depending on whether they **like** or **dislike** another movie. 
-- Users can **search for a movie** (which are available in the dataset) through a **search bar** and get some related informations regarding that movie.
+- Users can **search for a movie** (which are available in the dataset) through a **search bar** and get some related informations regarding that movie. Some of the informations are - 
     * **Title** of the movie with **release year**
     * **Genres** of the movie
     * **Top Casts** of the movie
