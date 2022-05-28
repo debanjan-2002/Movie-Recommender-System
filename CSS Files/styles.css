@@ -26,6 +26,7 @@ body {
     min-width: 50%;
     min-height: 50%;
     opacity: 0.5;
+    background-repeat: repeat-y;
 }
 
 ::-webkit-scrollbar { max-width: 3vw; }
