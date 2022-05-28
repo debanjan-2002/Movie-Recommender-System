@@ -110,6 +110,7 @@ function updateSuggestions(search_input, search_suggestions) {
         const clean_movie = movie.toLowerCase();
 
         if(clean_movie_name !== "" && clean_movie.startsWith(clean_movie_name)) {
+            document.querySelector('.search-text').classList.add('br-btm-left-btm-right-7');
             const list_item = document.createElement('li');
             list_item.classList.add('list-item');
             list_item.style.cursor = "pointer";
@@ -130,4 +131,6 @@ function displayNames(value) {
 }
 function removeSuggestionsContainer() {
     search_suggestions.innerHTML = '';
+    document.querySelector('.search-text').classList.remove('br-btm-left-btm-right-7');
+    document.querySelector('.search-text').classList.add('br-7');
 }
