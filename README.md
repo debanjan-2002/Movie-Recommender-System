@@ -8,6 +8,10 @@
 
 - User can get movie recommendations, depending on whether they **like** or **dislike** another movie. 
 - Users can **search for a movie** (which are available in the dataset) through a **search bar** and get some related informations regarding that movie.
+    * **Title** of the movie with **release year**
+    * **Genres** of the movie
+    * **Top Casts** of the movie
+    * **Directors** of the movie
 - Users will get *suggestions* while searching for the movies through the search bar **(suggestions on search)**.  
 - Clean, minimalistic and **responsive** UI for seamless user experience. 
 
