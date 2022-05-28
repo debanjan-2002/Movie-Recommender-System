@@ -17,3 +17,11 @@
 .bor-white-2 { border: 2px solid white; }
 .bor-white-3 { border: 3px solid white; }
 .display-none { display: none; }
+.font-wt-400 { font-weight: 400; }
+.font-wt-500 { font-weight: 500; }
+.font-wt-600 { font-weight: 600; }
+.font-wt-700 { font-weight: 700; }
+.font-wt-800 { font-weight: 800; }
+.br-7 {border-radius: 7px;}
+.br-5 {border-radius: 5px;}
+.br-btm-left-btm-right-7 {border-radius: 7px 7px 0px 0px; }
