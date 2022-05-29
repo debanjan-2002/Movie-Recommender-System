@@ -16,6 +16,10 @@
     * **Top Casts** of the movie
     * **Directors** of the movie
 - Users will get *suggestions* while searching for the movies through the search bar **(suggestions on search)**.  
+- For calculating scores for every movie for recommendation purpose, the following criterias have been taken into consideration-
+    * **Title** of the movie (For example - If someone searches for "Toy Story", then the engine will recommend other parts of the same series like "Toy Story 2", "Toy Story 3" etc.) 
+    * **Casts / Directors** of the movie (For example - If someone likes to watch movies of Christopher Nolan, then chances are that he/she would also like to watch other movies from the same person)
+    * **Overview** of the movie (Movies which have similar words in their descriptions are more likely to get recommended on each others recommendations list)
 - Clean, minimalistic and **responsive** UI for seamless user experience. 
 
 
