@@ -20,6 +20,7 @@
     * **Title** of the movie (For example - If someone searches for "Toy Story", then the engine will recommend other parts of the same series like "Toy Story 2", "Toy Story 3" etc.) 
     * **Casts / Directors** of the movie (For example - If someone likes to watch movies of Christopher Nolan, then chances are that he/she would also like to watch other movies from the same person)
     * **Overview** of the movie (Movies which have similar words in their descriptions are more likely to get recommended on each others recommendations list)
+    * **Genres** of the movie (This is one of the most important and straight forward criteria for recommendation. User liking a particular genre of movie is likely to watch other movies from the same genre too)
 - Clean, minimalistic and **responsive** UI for seamless user experience. 
 
 
